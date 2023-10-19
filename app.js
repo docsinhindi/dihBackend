@@ -1,0 +1,63 @@
+const express = require("express");
+const cors = require("cors");
+const mongoose = require("mongoose");
+require('dotenv').config();
+
+
+
+mongoose.connect(process.env.MONGODB_URL)
+    .then(()=>{
+        console.log("Mongodb connected");
+    }).catch((err)=>{
+        console.log("err" + err)
+    })
+
+
+
+const app = express();
+
+
+// import router --
+const htmlIdeRouter = require("./routes/html/htmlide")
+const htmlTutorialRouter = require("./routes/html/tutorial")
+const androidReferenceRouter = require('./routes/android/reference')
+
+const contactRouter = require("./routes/contact");
+const feedbackRouter = require("./routes/feedback");
+const searchRouter = require("./routes/search")
+
+app.use(cors())
+app.use(express.json())
+app.use(express.urlencoded({extended:true}))
+
+
+
+const PORT = 8000;
+
+app.get('/',(req,res)=>{
+    console.log("home")
+    res.send("success")
+});
+
+// android router
+app.use("/android/reference",androidReferenceRouter);
+
+
+//html router
+app.use('/html/tutorial', htmlTutorialRouter);
+
+app.use('/html', htmlIdeRouter);
+
+
+//other
+app.use("/",contactRouter);
+
+app.use("/",feedbackRouter);
+
+app.use("/search",searchRouter)
+
+app.listen(PORT,()=>{
+    console.log("application is running on port "+PORT)
+})
+
+
