@@ -116,7 +116,7 @@ module.exports.html_elements ={
     desImg:[
         {
             id:"i-2",
-            name:"Contact Us Form",
+            name:"HTML Element",
             url:"https://docsinhindi.s3.ap-south-1.amazonaws.com/htmltutorial/html_element.png"
         }
     ],
