@@ -33,9 +33,9 @@ module.exports.LinearLayoutCompat_LayoutParams = (req, res) => {
             {
               dep: false,
               name: `LayoutParams`,
-              id: "LayoutParams()",
-              code: `LayoutParams(ViewGroup.LayoutParams p)`,
-              fullCode: `public LayoutParams(ViewGroup.LayoutParams p)`,
+              id: "LayoutParams(ViewGroup.LayoutParams)",
+              code: `<a href="#LayoutParams(ViewGroup.LayoutParams)">LayoutParams</a>(ViewGroup.LayoutParams p)`,
+              fullCode: `public <a href="#LayoutParams(ViewGroup.LayoutParams)">LayoutParams</a>(ViewGroup.LayoutParams p)`,
 
               des: `Is constructor ka use, ek existing ViewGroup.LayoutParams object se LinearLayoutCompat.LayoutParams object ko create karne ke liye hota hai.`,
 
@@ -61,9 +61,9 @@ module.exports.LinearLayoutCompat_LayoutParams = (req, res) => {
             {
               dep: false,
               name: `LayoutParams`,
-              id: "LayoutParams()",
-              code: `LayoutParams(ViewGroup.MarginLayoutParams source)`,
-              fullCode: `public LayoutParams(ViewGroup.MarginLayoutParams source)`,
+              id: "LayoutParams(ViewGroup.MarginLayoutParams)",
+              code: `<a href="#LayoutParams(ViewGroup.MarginLayoutParams)">LayoutParams</a>(ViewGroup.MarginLayoutParams source)`,
+              fullCode: `public <a href="#LayoutParams(ViewGroup.MarginLayoutParams)">LayoutParams</a>(ViewGroup.MarginLayoutParams source)`,
 
               des: `Is constructor ka use, ek existing ViewGroup.MarginLayoutParams object se LinearLayoutCompat.LayoutParams object ko create karne ke liye hota hai.`,
 
@@ -88,9 +88,9 @@ module.exports.LinearLayoutCompat_LayoutParams = (req, res) => {
             {
               dep: false,
               name: `LayoutParams`,
-              id: "LayoutParams()",
-              code: `LayoutParams(Context c, AttributeSet attrs)`,
-              fullCode: `public LayoutParams(Context c, AttributeSet attrs)`,
+              id: "LayoutParams(Context,AttributeSet)",
+              code: `<a href="#LayoutParams(Context,AttributeSet)">LayoutParams</a>(Context c, AttributeSet attrs)`,
+              fullCode: `public <a href="#LayoutParams(Context,AttributeSet)">LayoutParams</a>(Context c, AttributeSet attrs)`,
 
               des: `Is constructor ka use, LinearLayoutCompat view group ke child views ke liye layout parameters (LayoutParams) ko XML layout file mein define karne ke liye hota hai.`,
 
@@ -120,9 +120,9 @@ module.exports.LinearLayoutCompat_LayoutParams = (req, res) => {
             {
               dep: false,
               name: `LayoutParams`,
-              id: "LayoutParams()",
-              code: `LayoutParams(int width, int height)`,
-              fullCode: `public LayoutParams(int width, int height)`,
+              id: "LayoutParams(int,int)",
+              code: `<a href="#LayoutParams(int,int)">LayoutParams</a>(int width, int height)`,
+              fullCode: `public <a href="#LayoutParams(int,int)">LayoutParams</a>(int width, int height)`,
 
               des: `Is constructor ka use, LinearLayoutCompat view group ke child views ke liye layout parameters (LayoutParams) ko programmatic tarike se define karne ke liye hota hai.`,
 
@@ -154,9 +154,9 @@ module.exports.LinearLayoutCompat_LayoutParams = (req, res) => {
             {
               dep: false,
               name: `LayoutParams`,
-              id: "LayoutParams()",
-              code: `LayoutParams(int width, int height, float weight)`,
-              fullCode: `public LayoutParams(int width, int height, float weight)`,
+              id: "LayoutParams(int,int,float)",
+              code: `<a href="#LayoutParams(int,int,float)">LayoutParams</a>(int width, int height, float weight)`,
+              fullCode: `public <a href="#LayoutParams(int,int,float)">LayoutParams</a>(int width, int height, float weight)`,
 
               des: `Is constructor ka use, LinearLayoutCompat view group ke child views ke liye layout parameters (LayoutParams) ko programmatic tarike se define karne ke liye hota hai, jisme specific width, height, aur weight values set kiye jate hain.`,
 

@@ -29,8 +29,8 @@ module.exports.WindowLayoutInfoPublisherRule = (req, res) => {
               dep: false,
               name: `WindowLayoutInfoPublisherRule`,
               id: "WindowLayoutInfoPublisherRule()",
-              code: `WindowLayoutInfoPublisherRule()`,
-              fullCode: `public WindowLayoutInfoPublisherRule()`,
+              code: `<a href="#WindowLayoutInfoPublisherRule()">WindowLayoutInfoPublisherRule</a>()`,
+              fullCode: `public <a href="#WindowLayoutInfoPublisherRule()">WindowLayoutInfoPublisherRule</a>()`,
 
               des: `Is constructor ka use testing scenarios mein hota hai jahan par WindowLayoutInfo objects ko publish karna aur track karna chahte hain.`,
 

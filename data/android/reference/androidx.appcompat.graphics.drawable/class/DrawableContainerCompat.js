@@ -31,8 +31,8 @@ module.exports.DrawableContainerCompat = (req, res) => {
             dep: false,
             name: `DrawableContainerCompat`,
             id: "DrawableContainerCompat()",
-            code: `DrawableContainerCompat()`,
-            fullCode: `public DrawableContainerCompat()`,
+            code: `<a href="#DrawableContainerCompat()">DrawableContainerCompat</a>()`,
+            fullCode: `public <a href="#DrawableContainerCompat()">DrawableContainerCompat</a>()`,
 
             des: `Is constructor ka use, DrawableContainerCompat object banane ke liye kiya jata hai.`,
 

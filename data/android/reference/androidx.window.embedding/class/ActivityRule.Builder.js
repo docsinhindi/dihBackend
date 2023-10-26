@@ -32,8 +32,8 @@ module.exports.ActivityRule_Builder = (req, res) => {
               dep: false,
               name: `Builder`,
               id: "Builder()",
-              code: `Builder(@NonNull Set<@NonNull ActivityFilter> filters)`,
-              fullCode: `public Builder(@NonNull Set<@NonNull ActivityFilter> filters)`,
+              code: `<a href="#Builder()">Builder</a>(@NonNull Set<@NonNull ActivityFilter> filters)`,
+              fullCode: `public <a href="#Builder()">Builder</a>(@NonNull Set<@NonNull ActivityFilter> filters)`,
 
               des: `Is constructor ka use ActivityRule.Builder object ko initialize karne ke liye hota hai jab filters set specified hote hain.`,
 

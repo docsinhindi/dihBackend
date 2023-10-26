@@ -31,9 +31,9 @@ module.exports.AppCompatButton = (req, res) => {
             {
               dep: false,
               name: `AppCompatButton`,
-              id: "AppCompatButton()",
-              code: `AppCompatButton(@NonNull Context context)`,
-              fullCode: `public AppCompatButton(@NonNull Context context)`,
+              id: "AppCompatButton(Context)",
+              code: `<a href="#AppCompatButton(Context)">AppCompatButton</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatButton(Context)">AppCompatButton</a>(@NonNull Context context)`,
 
               des: `AppCompatButton constructor ka upayog, AppCompatButton view ko create karne ke liye kiya jata hai.`,
 
@@ -57,9 +57,9 @@ module.exports.AppCompatButton = (req, res) => {
             {
               dep: false,
               name: `AppCompatButton`,
-              id: "AppCompatButton()",
-              code: `AppCompatButton(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public AppCompatButton(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              id: "AppCompatButton(Context,AttributeSet)",
+              code: `<a href="#AppCompatButton(Context,AttributeSet)">AppCompatButton</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#AppCompatButton(Context,AttributeSet)">AppCompatButton</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `ye constructor, AppCompatButton view ka naya instance create karne ke liye use hota hai, jisme view ke attributes ko XML layout file se parse karke use karna hota hai.`,
 
@@ -88,13 +88,13 @@ module.exports.AppCompatButton = (req, res) => {
             {
               dep: false,
               name: `AppCompatButton`,
-              id: "AppCompatButton()",
-              code: `AppCompatButton(
+              id: "AppCompatButton(Context,AttributeSet,int)",
+              code: `<a href="#AppCompatButton(Context,AttributeSet,int)">AppCompatButton</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public AppCompatButton(
+              fullCode: `public <a href="#AppCompatButton(Context,AttributeSet,int)">AppCompatButton</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

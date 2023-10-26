@@ -32,8 +32,8 @@ module.exports.AppCompatDialogFragment = (req, res) => {
               dep: false,
               name: `AppCompatDialogFragment`,
               id: "AppCompatDialogFragment()",
-              code: `AppCompatDialogFragment()`,
-              fullCode: `public AppCompatDialogFragment()`,
+              code: `<a href="#AppCompatDialogFragment()">AppCompatDialogFragment</a>()`,
+              fullCode: `public <a href="#AppCompatDialogFragment()">AppCompatDialogFragment</a>()`,
 
               des: `Is constructor ka use AppCompatDialogFragment object banane ke liye kiya jata hai.`,
 
@@ -49,8 +49,8 @@ module.exports.AppCompatDialogFragment = (req, res) => {
               dep: false,
               name: `AppCompatDialogFragment`,
               id: "AppCompatDialogFragment(int)",
-              code: `AppCompatDialogFragment(@LayoutRes int contentLayoutId)`,
-              fullCode: `public AppCompatDialogFragment(@LayoutRes int contentLayoutId)`,
+              code: `<a href="#AppCompatDialogFragment(int)">AppCompatDialogFragment</a>(@LayoutRes int contentLayoutId)`,
+              fullCode: `public <a href="#AppCompatDialogFragment(int)">AppCompatDialogFragment</a>(@LayoutRes int contentLayoutId)`,
 
               des: `Ye constructor, AppCompatDialogFragment object banane ke liye aur dialog ke content area ko ek layout resource se inflate karne ke liye use hota hai.`,
 

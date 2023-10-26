@@ -29,8 +29,8 @@ module.exports.WindowInfoTrackerCallbackAdapter = (req, res) => {
               dep: false,
               name: `WindowInfoTrackerCallbackAdapter`,
               id: "WindowInfoTrackerCallbackAdapter()",
-              code: `WindowInfoTrackerCallbackAdapter(@NonNull WindowInfoTracker tracker)`,
-              fullCode: `public WindowInfoTrackerCallbackAdapter(@NonNull WindowInfoTracker tracker)`,
+              code: `<a href="#WindowInfoTrackerCallbackAdapter()">WindowInfoTrackerCallbackAdapter</a>(@NonNull WindowInfoTracker tracker)`,
+              fullCode: `public <a href="#WindowInfoTrackerCallbackAdapter()">WindowInfoTrackerCallbackAdapter</a>(@NonNull WindowInfoTracker tracker)`,
 
               des: `Is constructor ka use WindowInfoTrackerCallbackAdapter class ke objects ko initialize karne ke liye hota hai, jisse unka internal state set ho sake.`,
 

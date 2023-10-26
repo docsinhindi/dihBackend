@@ -36,8 +36,8 @@ module.exports.Toolbar_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(int)",
-              code: `LayoutParams(int gravity)`,
-              fullCode: `public LayoutParams(int gravity)`,
+              code: `<a href="#LayoutParams(int)">LayoutParams</a>(int gravity)`,
+              fullCode: `public <a href="#LayoutParams(int)">LayoutParams</a>(int gravity)`,
 
               des: `Is constructor ko use karke aap Toolbar ke child views ki layout properties, jaise ki gravity, ko set kar sakte hain.`,
 
@@ -64,8 +64,8 @@ module.exports.Toolbar_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(ActionBar.LayoutParams)",
-              code: `LayoutParams(ActionBar.LayoutParams source)`,
-              fullCode: `public LayoutParams(ActionBar.LayoutParams source)`,
+              code: `<a href="#LayoutParams(ActionBar.LayoutParams)">LayoutParams</a>(ActionBar.LayoutParams source)`,
+              fullCode: `public <a href="#LayoutParams(ActionBar.LayoutParams)">LayoutParams</a>(ActionBar.LayoutParams source)`,
 
               des: `is constructor ka use ActionBar.LayoutParams object se Toolbar.LayoutParams object ko create karne ke liye hota hai.`,
 
@@ -94,8 +94,8 @@ module.exports.Toolbar_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(Toolbar.LayoutParams)",
-              code: `LayoutParams(Toolbar.LayoutParams source)`,
-              fullCode: `public LayoutParams(Toolbar.LayoutParams source)`,
+              code: `<a href="#LayoutParams(Toolbar.LayoutParams)">LayoutParams</a>(Toolbar.LayoutParams source)`,
+              fullCode: `public <a href="#LayoutParams(Toolbar.LayoutParams)">LayoutParams</a>(Toolbar.LayoutParams source)`,
 
               des: `is constructor ka use dusre Toolbar.LayoutParams object se naye Toolbar.LayoutParams object ko create karne ke liye hota hai.`,
 
@@ -123,8 +123,8 @@ module.exports.Toolbar_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(ViewGroup.LayoutParams)",
-              code: `LayoutParams(ViewGroup.LayoutParams source)`,
-              fullCode: `public LayoutParams(ViewGroup.LayoutParams source)`,
+              code: `<a href="#LayoutParams(ViewGroup.LayoutParams)">LayoutParams</a>(ViewGroup.LayoutParams source)`,
+              fullCode: `public <a href="#LayoutParams(ViewGroup.LayoutParams)">LayoutParams</a>(ViewGroup.LayoutParams source)`,
 
               des: `Is constructor ka use, ViewGroup.LayoutParams object se Toolbar.LayoutParams object ko create karne ke liye hota hai.`,
 
@@ -152,8 +152,8 @@ module.exports.Toolbar_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(ViewGroup.MarginLayoutParams)",
-              code: `LayoutParams(ViewGroup.MarginLayoutParams source)`,
-              fullCode: `public LayoutParams(ViewGroup.MarginLayoutParams source)`,
+              code: `<a href="#LayoutParams(ViewGroup.MarginLayoutParams)">LayoutParams</a>(ViewGroup.MarginLayoutParams source)`,
+              fullCode: `public <a href="#LayoutParams(ViewGroup.MarginLayoutParams)">LayoutParams</a>(ViewGroup.MarginLayoutParams source)`,
 
               des: `Is constructor ka use, ViewGroup.MarginLayoutParams object se Toolbar.LayoutParams object ko create karne ke liye hota hai.`,
 
@@ -182,8 +182,8 @@ module.exports.Toolbar_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(Context,AttributeSet)",
-              code: `LayoutParams(@NonNull Context c, AttributeSet attrs)`,
-              fullCode: `public LayoutParams(@NonNull Context c, AttributeSet attrs)`,
+              code: `<a href="#LayoutParams(Context,AttributeSet)">LayoutParams</a>(@NonNull Context c, AttributeSet attrs)`,
+              fullCode: `public <a href="#LayoutParams(Context,AttributeSet)">LayoutParams</a>(@NonNull Context c, AttributeSet attrs)`,
 
               des: `Is constructor ka use XML layout file mein define kiye gaye attributes se Toolbar.LayoutParams object ko create karne ke liye hota hai.`,
 
@@ -217,8 +217,8 @@ module.exports.Toolbar_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(int,int)",
-              code: `LayoutParams(int width, int height)`,
-              fullCode: `public LayoutParams(int width, int height)`,
+              code: `<a href="#LayoutParams(int,int)">LayoutParams</a>(int width, int height)`,
+              fullCode: `public <a href="#LayoutParams(int,int)">LayoutParams</a>(int width, int height)`,
 
               des: `Is constructor ka use, child views ke liye width aur height ko define karne ke liye hota hai.`,
 
@@ -248,8 +248,8 @@ module.exports.Toolbar_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(int,int,int)",
-              code: `LayoutParams(int width, int height, int gravity)`,
-              fullCode: `public LayoutParams(int width, int height, int gravity)`,
+              code: `<a href="#LayoutParams(int,int,int)">LayoutParams</a>(int width, int height, int gravity)`,
+              fullCode: `public <a href="#LayoutParams(int,int,int)">LayoutParams</a>(int width, int height, int gravity)`,
 
               des: ` Is constructor ka use child views ke liye width, height, aur gravity ko define karne ke liye hota hai.`,
 

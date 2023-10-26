@@ -29,8 +29,8 @@ module.exports.ActivityEmbeddingRule = (req, res) => {
               dep: false,
               name: `ActivityEmbeddingRule`,
               id: "ActivityEmbeddingRule()",
-              code: `ActivityEmbeddingRule()`,
-              fullCode: `public ActivityEmbeddingRule()`,
+              code: `<a href="#ActivityEmbeddingRule()">ActivityEmbeddingRule</a>()`,
+              fullCode: `public <a href="#ActivityEmbeddingRule()">ActivityEmbeddingRule</a>()`,
 
               des: `Yeh constructor ek rule hota hai jo Android instrumentation tests mein use hota hai. Iska use UI components ko test karte waqt activity embedding aur interaction ko simplify karne ke liye hota hai.`,
 

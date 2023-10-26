@@ -29,11 +29,11 @@ module.exports.WindowProperties = (req, res) => {
           {
             dep: false,
             name: "PROPERTY_ACTIVITY_EMBEDDING_ALLOW_SYSTEM_OVERRIDE",
-            id: "",
+            id: "PROPERTY_ACTIVITY_EMBEDDING_ALLOW_SYSTEM_OVERRIDE",
             dataTypeName: `public static final @NonNull String`,
-            code: `PROPERTY_ACTIVITY_EMBEDDING_ALLOW_SYSTEM_OVERRIDE`,
+            code: `<a href="#PROPERTY_ACTIVITY_EMBEDDING_ALLOW_SYSTEM_OVERRIDE">PROPERTY_ACTIVITY_EMBEDDING_ALLOW_SYSTEM_OVERRIDE</a>`,
 
-            fullCode: `public static final @NonNull String PROPERTY_ACTIVITY_EMBEDDING_ALLOW_SYSTEM_OVERRIDE`,
+            fullCode: `public static final @NonNull String <a href="#PROPERTY_ACTIVITY_EMBEDDING_ALLOW_SYSTEM_OVERRIDE">PROPERTY_ACTIVITY_EMBEDDING_ALLOW_SYSTEM_OVERRIDE</a>`,
 
             des:`ye constant ka use karke, aap decide kar sakte ho ki system ko activity embedding ko override karne ki permission deni hai ya nahi.`,
 
@@ -50,11 +50,11 @@ module.exports.WindowProperties = (req, res) => {
           {
             dep: false,
             name: "PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED",
-            id: "",
+            id: "PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED",
             dataTypeName: `public static final @NonNull String`,
-            code: `PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED`,
+            code: `<a href="#PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED">PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED</a>`,
 
-            fullCode: `public static final @NonNull String PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED`,
+            fullCode: `public static final @NonNull String <a href="#PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED">PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED</a>`,
 
             des:`ye constant ka use karke, aap decide kar sakte ho ki activity embedding ke liye splits enable karna hai ya nahi.`,
 
@@ -71,11 +71,11 @@ module.exports.WindowProperties = (req, res) => {
           {
             dep: false,
             name: "PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED",
-            id: "",
+            id: "PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED",
             dataTypeName: `public static final @NonNull String`,
-            code: `PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED`,
+            code: `<a href="#PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED">PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED</a>`,
 
-            fullCode: `public static final @NonNull String PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED`,
+            fullCode: `public static final @NonNull String <a href="#PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED">PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED</a>`,
 
             des:`ye constant ka use karke, aap decide kar sakte ho ki loop detect hone par orientation request ignore karna hai ya nahi.`,
 
@@ -92,11 +92,11 @@ module.exports.WindowProperties = (req, res) => {
           {
             dep: false,
             name: "PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE",
-            id: "",
+            id: "PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE",
             dataTypeName: `public static final @NonNull String`,
-            code: `PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE`,
+            code: `<a href="#PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE">PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE</a>`,
 
-            fullCode: `public static final @NonNull String PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE`,
+            fullCode: `public static final @NonNull String <a href="#PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE">PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE</a>`,
 
             des:`ye constant ka use karke, aap decide kar sakte ho ki minimum aspect ratio override karna hai ya nahi.`,
 
@@ -112,11 +112,11 @@ module.exports.WindowProperties = (req, res) => {
           {
             dep: false,
             name: "PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES",
-            id: "",
+            id: "PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES",
             dataTypeName: `public static final @NonNull String`,
-            code: `PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES`,
+            code: `<a href="#PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES">PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES</a>`,
 
-            fullCode: `public static final @NonNull String PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES`,
+            fullCode: `public static final @NonNull String <a href="#PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES">PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES</a>`,
 
             des:`ye constant ka use karke, aap decide kar sakte ho ki resizable activity overrides karna hai ya nahi.`,
 

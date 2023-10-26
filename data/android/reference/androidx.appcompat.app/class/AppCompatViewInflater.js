@@ -32,8 +32,8 @@ module.exports.AppCompatViewInflater = (req, res) => {
               dep: false,
               name: `AppCompatViewInflater`,
               id: "AppCompatViewInflater()",
-              code: `AppCompatViewInflater()`,
-              fullCode: `public AppCompatViewInflater()`,
+              code: `<a href="#AppCompatViewInflater()">AppCompatViewInflater</a>()`,
+              fullCode: `public <a href="#AppCompatViewInflater()">AppCompatViewInflater</a>()`,
 
               des: `Is constructor ka use AppCompatViewInflater object banane ke liye kiya jata hai.`,
 

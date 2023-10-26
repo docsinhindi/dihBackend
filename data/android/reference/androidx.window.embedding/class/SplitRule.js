@@ -32,11 +32,11 @@ module.exports.SplitRule = (req, res) => {
           {
             dep: false,
             name: "SPLIT_MIN_DIMENSION_ALWAYS_ALLOW",
-            id: "",
+            id: "SPLIT_MIN_DIMENSION_ALWAYS_ALLOW",
             dataTypeName: `static final int`,
-            code: `SPLIT_MIN_DIMENSION_ALWAYS_ALLOW = 0`,
+            code: `<a href="#SPLIT_MIN_DIMENSION_ALWAYS_ALLOW">SPLIT_MIN_DIMENSION_ALWAYS_ALLOW</a> = 0`,
 
-            fullCode: `public static final int SPLIT_MIN_DIMENSION_ALWAYS_ALLOW = 0`,
+            fullCode: `public static final int <a href="#SPLIT_MIN_DIMENSION_ALWAYS_ALLOW">SPLIT_MIN_DIMENSION_ALWAYS_ALLOW</a> = 0`,
 
             des:`Iska use SplitRule objects ko configure karne mein hota hai, specifically minimum dimension restriction ko ignore karne ke liye.`,
 
@@ -49,11 +49,11 @@ module.exports.SplitRule = (req, res) => {
           {
             dep: false,
             name: "SPLIT_MIN_DIMENSION_DP_DEFAULT",
-            id: "",
+            id: "SPLIT_MIN_DIMENSION_DP_DEFAULT",
             dataTypeName: `static final int`,
-            code: `SPLIT_MIN_DIMENSION_DP_DEFAULT = 600`,
+            code: `<a href="#SPLIT_MIN_DIMENSION_DP_DEFAULT">SPLIT_MIN_DIMENSION_DP_DEFAULT</a> = 600`,
 
-            fullCode: `public static final int SPLIT_MIN_DIMENSION_DP_DEFAULT = 600`,
+            fullCode: `public static final int <a href="#SPLIT_MIN_DIMENSION_DP_DEFAULT">SPLIT_MIN_DIMENSION_DP_DEFAULT</a> = 600`,
 
             des:`Iska use splitting rule mein minimum dimension ko configure karne mein hota hai.`,
 

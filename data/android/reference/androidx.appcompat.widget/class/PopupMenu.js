@@ -32,10 +32,10 @@ module.exports.PopupMenu = (req, res) => {
             {
               dep: false,
               name: `PopupMenu`,
-              id: "PopupMenu()",
-              code: `PopupMenu(@NonNull Context context, @NonNull View anchor)`,
+              id: "PopupMenu(Context,View)",
+              code: `<a href="#PopupMenu(Context,View)">PopupMenu</a>(@NonNull Context context, @NonNull View anchor)`,
               
-              fullCode: `public PopupMenu(@NonNull Context context, @NonNull View anchor)`,
+              fullCode: `public <a href="#PopupMenu(Context,View)">PopupMenu</a>(@NonNull Context context, @NonNull View anchor)`,
 
               des: `Is constructor ka use karke aap ek popup menu ko ek specific anchor view ke saath associate kar sakte hain, jisse user us anchor view par click karte hai, wahan par popup menu dikhai dega.`,
 
@@ -63,10 +63,10 @@ module.exports.PopupMenu = (req, res) => {
             {
               dep: false,
               name: `PopupMenu`,
-              id: "PopupMenu()",
-              code: `PopupMenu(@NonNull Context context, @NonNull View anchor, int gravity)`,
+              id: "PopupMenu(Context,View,int)",
+              code: `<a href="#PopupMenu(Context,View,int)">PopupMenu</a>(@NonNull Context context, @NonNull View anchor, int gravity)`,
               
-              fullCode: `public PopupMenu(@NonNull Context context, @NonNull View anchor, int gravity)`,
+              fullCode: `public <a href="#PopupMenu(Context,View,int)">PopupMenu</a>(@NonNull Context context, @NonNull View anchor, int gravity)`,
 
               des: `Is constructor ka use karke aap ek popup menu ko ek specific anchor view ke saath associate kar sakte hain aur menu ka position (gravity) ko customize kar sakte hain.`,
 
@@ -99,8 +99,8 @@ module.exports.PopupMenu = (req, res) => {
             {
               dep: false,
               name: `PopupMenu`,
-              id: "PopupMenu()",
-              code: `PopupMenu(
+              id: "PopupMenu(Context,View,int,int,int)",
+              code: `<a href="#PopupMenu(Context,View,int,int,int)">PopupMenu</a>(
                 @NonNull Context context,
                 @NonNull View anchor,
                 int gravity,
@@ -108,7 +108,7 @@ module.exports.PopupMenu = (req, res) => {
                 @StyleRes int popupStyleRes
             )`,
               
-              fullCode: `public PopupMenu(
+              fullCode: `public <a href="#PopupMenu(Context,View,int,int,int)">PopupMenu</a>(
                 @NonNull Context context,
                 @NonNull View anchor,
                 int gravity,

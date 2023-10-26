@@ -32,8 +32,8 @@ module.exports.AppCompatImageView = (req, res) => {
               dep: false,
               name: `AppCompatImageView`,
               id: "AppCompatImageView(Context)",
-              code: `AppCompatImageView(@NonNull Context context)`,
-              fullCode: `public AppCompatImageView(@NonNull Context context)`,
+              code: `<a href="#AppCompatImageView(Context)">AppCompatImageView</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatImageView(Context)">AppCompatImageView</a>(@NonNull Context context)`,
 
               des: `Ye constructor, AppCompatImageView class ka object create karne ke liye hota hai.`,
 
@@ -62,9 +62,9 @@ module.exports.AppCompatImageView = (req, res) => {
               dep: false,
               name: `AppCompatImageView`,
               id: "AppCompatImageView(Context,AttributeSet)",
-              code: `AppCompatImageView(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              code: `<a href="#AppCompatImageView(Context,AttributeSet)">AppCompatImageView</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
-              fullCode: `public AppCompatImageView(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#AppCompatImageView(Context,AttributeSet)">AppCompatImageView</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Ye constructor, AppCompatImageView view ka object create karne ke liye hota hai, jiska use XML layout file mein define kiye gaye attributes ke saath AppCompatImageView ko inflate karne ke liye kiya jata hai.`,
 
@@ -97,13 +97,13 @@ module.exports.AppCompatImageView = (req, res) => {
               dep: false,
               name: `AppCompatImageView`,
               id: "AppCompatImageView(Context,AttributeSet,int)",
-              code: `AppCompatImageView(
+              code: `<a href="#AppCompatImageView(Context,AttributeSet,int)">AppCompatImageView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
               
-              fullCode: `public AppCompatImageView(
+              fullCode: `public <a href="#AppCompatImageView(Context,AttributeSet,int)">AppCompatImageView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

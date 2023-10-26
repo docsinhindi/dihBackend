@@ -32,9 +32,9 @@ module.exports.ThemedSpinnerAdapter_Helper = (req, res) => {
             {
               dep: false,
               name: `Helper`,
-              id: "Helper()",
-              code: `Helper(@NonNull Context context)`,
-              fullCode: `public Helper(@NonNull Context context)`,
+              id: "Helper(Context)",
+              code: `<a href="#Helper(Context)">Helper</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#Helper(Context)">Helper</a>(@NonNull Context context)`,
 
               des: `ThemedSpinnerAdapter.Helper class ka Helper(@NonNull Context context) constructor, ek helper constructor hai, jiska use ThemedSpinnerAdapter ko create karne ke liye kiya jata hai.`,
 

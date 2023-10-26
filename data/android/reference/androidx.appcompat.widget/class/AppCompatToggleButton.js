@@ -34,9 +34,9 @@ module.exports.AppCompatToggleButton = (req, res) => {
               dep: false,
               name: `AppCompatToggleButton`,
               id: "AppCompatToggleButton(Context)",
-              code: `AppCompatToggleButton(@NonNull Context context)`,
+              code: `<a href="#AppCompatToggleButton(Context)">AppCompatToggleButton</a>(@NonNull Context context)`,
 
-              fullCode: `public AppCompatToggleButton(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatToggleButton(Context)">AppCompatToggleButton</a>(@NonNull Context context)`,
 
               des: `Ye constructor, AppCompatToggleButton class ka ek naya object create karne ke liye use hota hai.`,
 
@@ -62,12 +62,12 @@ module.exports.AppCompatToggleButton = (req, res) => {
               dep: false,
               name: `AppCompatToggleButton`,
               id: "AppCompatToggleButton(Context,AttributeSet)",
-              code: `AppCompatToggleButton(
+              code: `<a href="#AppCompatToggleButton(Context,AttributeSet)">AppCompatToggleButton</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs
             )`,
 
-              fullCode: `public AppCompatToggleButton(
+              fullCode: `public <a href="#AppCompatToggleButton(Context,AttributeSet)">AppCompatToggleButton</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs
             )`,
@@ -102,13 +102,13 @@ module.exports.AppCompatToggleButton = (req, res) => {
               dep: false,
               name: `AppCompatToggleButton`,
               id: "AppCompatToggleButton(Context,AttributeSet,int)",
-              code: `AppCompatToggleButton(
+              code: `<a href="#AppCompatToggleButton(Context,AttributeSet,int)">AppCompatToggleButton</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
 
-              fullCode: `public AppCompatToggleButton(
+              fullCode: `public <a href="#AppCompatToggleButton(Context,AttributeSet,int)">AppCompatToggleButton</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

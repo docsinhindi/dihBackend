@@ -32,8 +32,8 @@ module.exports.AppCompatAutoCompleteTextView = (req, res) => {
               dep: false,
               name: `AppCompatAutoCompleteTextView`,
               id: "AppCompatAutoCompleteTextView(Context)",
-              code: `AppCompatAutoCompleteTextView(@NonNull Context context)`,
-              fullCode: `public AppCompatAutoCompleteTextView(@NonNull Context context)`,
+              code: `<a href="#AppCompatAutoCompleteTextView(Context)">AppCompatAutoCompleteTextView</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatAutoCompleteTextView(Context)">AppCompatAutoCompleteTextView</a>(@NonNull Context context)`,
 
               des: `Ye constructor, AppCompatAutoCompleteTextView ke ek instance ko diye gaye context se initialize karne ke liye use hota hai.`,
 
@@ -59,11 +59,11 @@ module.exports.AppCompatAutoCompleteTextView = (req, res) => {
               dep: false,
               name: `AppCompatAutoCompleteTextView`,
               id: "AppCompatAutoCompleteTextView(Context,AttributeSet)",
-              code: `AppCompatAutoCompleteTextView(
+              code: `<a href="#AppCompatAutoCompleteTextView(Context,AttributeSet)">AppCompatAutoCompleteTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs
             )`,
-              fullCode: `public AppCompatAutoCompleteTextView(
+              fullCode: `public <a href="#AppCompatAutoCompleteTextView(Context,AttributeSet)">AppCompatAutoCompleteTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs
             )`,
@@ -97,12 +97,12 @@ module.exports.AppCompatAutoCompleteTextView = (req, res) => {
               dep: false,
               name: `AppCompatAutoCompleteTextView`,
               id: "AppCompatAutoCompleteTextView(Context,AttributeSet,int)",
-              code: `AppCompatAutoCompleteTextView(
+              code: `<a href="#AppCompatAutoCompleteTextView(Context,AttributeSet,int)">AppCompatAutoCompleteTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public AppCompatAutoCompleteTextView(
+              fullCode: `public <a href="#AppCompatAutoCompleteTextView(Context,AttributeSet,int)">AppCompatAutoCompleteTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

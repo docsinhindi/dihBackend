@@ -34,12 +34,12 @@ module.exports.Toolbar_SavedState = (req, res) => {
           {
             dep: false,
             name: "CREATOR",
-            id: "",
+            id: "CREATOR",
             dataTypeName: `static final Parcelable.Creator<Toolbar.SavedState>`,
 
-            code: `CREATOR`,
+            code: `<a href="#CREATOR">CREATOR</a>`,
 
-            fullCode: `public static final Parcelable.Creator<Toolbar.SavedState> CREATOR`,
+            fullCode: `public static final Parcelable.Creator<Toolbar.SavedState> <a href="#CREATOR">CREATOR</a>`,
 
             des:`CREATOR constant ka use Toolbar.SavedState objects ko serialize aur deserialize karne ke liye hota hai.`,
             longDes: `
@@ -69,8 +69,8 @@ module.exports.Toolbar_SavedState = (req, res) => {
               name: `SavedState`,
               id: "SavedState(Parcel)",
 
-              code: `SavedState(Parcel source)`,
-              fullCode: `public SavedState(Parcel source)`,
+              code: `<a href="#SavedState(Parcel)">SavedState</a>(Parcel source)`,
+              fullCode: `public <a href="#SavedState(Parcel)">SavedState</a>(Parcel source)`,
 
               des: `Is constructor ka use Parcel object se Toolbar.SavedState object ko restore karne ke liye hota hai.`,
 
@@ -98,8 +98,8 @@ module.exports.Toolbar_SavedState = (req, res) => {
               name: `SavedState`,
               id: "SavedState(Parcelable)",
 
-              code: `SavedState(Parcelable superState)`,
-              fullCode: `public SavedState(Parcelable superState)`,
+              code: `<a href="#SavedState(Parcelable)">SavedState</a>(Parcelable superState)`,
+              fullCode: `public <a href="#SavedState(Parcelable)">SavedState</a>(Parcelable superState)`,
 
               des: `Is constructor ka use, Toolbar view ke state ko save aur restore karne ke liye hota hai, sath hi superState parameter ke base par dusre Parcelable objects ke state ko bhi save aur restore karne mein madad karta hai.`,
 
@@ -127,8 +127,8 @@ module.exports.Toolbar_SavedState = (req, res) => {
               name: `SavedState`,
               id: "SavedState(Parcel,ClassLoader)",
 
-              code: `SavedState(Parcel source, ClassLoader loader)`,
-              fullCode: `public SavedState(Parcel source, ClassLoader loader)`,
+              code: `<a href="#SavedState(Parcel,ClassLoader)">SavedState</a>(Parcel source, ClassLoader loader)`,
+              fullCode: `public <a href="#SavedState(Parcel,ClassLoader)">SavedState</a>(Parcel source, ClassLoader loader)`,
 
               des: `Is constructor ka use, Toolbar view ke state ko save aur restore karne ke liye hota hai, sath hi Parcel object se Toolbar.SavedState object ko read karne ke liye aur class loading ke liye madad karta hai.`,
 

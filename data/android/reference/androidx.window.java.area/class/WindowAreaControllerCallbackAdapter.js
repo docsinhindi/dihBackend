@@ -29,10 +29,10 @@ module.exports.WindowAreaControllerCallbackAdapter = (req, res) => {
               dep: false,
               name: `WindowAreaControllerCallbackAdapter`,
               id: "WindowAreaControllerCallbackAdapter()",
-              code: `WindowAreaControllerCallbackAdapter(
+              code: `<a href="#WindowAreaControllerCallbackAdapter()">WindowAreaControllerCallbackAdapter</a>(
                 @NonNull WindowAreaController controller
             )`,
-              fullCode: `public WindowAreaControllerCallbackAdapter(
+              fullCode: `public <a href="#WindowAreaControllerCallbackAdapter()">WindowAreaControllerCallbackAdapter</a>(
                 @NonNull WindowAreaController controller
             )`,
 

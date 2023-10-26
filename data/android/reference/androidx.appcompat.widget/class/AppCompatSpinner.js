@@ -34,8 +34,8 @@ module.exports.AppCompatSpinner = (req, res) => {
               dep: false,
               name: `AppCompatSpinner`,
               id: "AppCompatSpinner(Context)",
-              code: `AppCompatSpinner(@NonNull Context context)`,
-              fullCode: `public AppCompatSpinner(@NonNull Context context)`,
+              code: `<a href="#AppCompatSpinner(Context)">AppCompatSpinner</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatSpinner(Context)">AppCompatSpinner</a>(@NonNull Context context)`,
 
               des: `Ye constructor AppCompatSpinner class ke object (instance) ko create karne mein use hota hai.`,
 
@@ -61,8 +61,8 @@ module.exports.AppCompatSpinner = (req, res) => {
               dep: false,
               name: `AppCompatSpinner`,
               id: "AppCompatSpinner(Context,AttributeSet)",
-              code: `AppCompatSpinner(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public AppCompatSpinner(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              code: `<a href="#AppCompatSpinner(Context,AttributeSet)">AppCompatSpinner</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#AppCompatSpinner(Context,AttributeSet)">AppCompatSpinner</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Ye constructor AppCompatSpinner class ke object (instance) ko create karne mein use hota hai, jab aap spinner widget ko XML layout mein define karte hain.`,
 
@@ -91,8 +91,8 @@ module.exports.AppCompatSpinner = (req, res) => {
               dep: false,
               name: `AppCompatSpinner`,
               id: "AppCompatSpinner(Context,int)",
-              code: `AppCompatSpinner(@NonNull Context context, int mode)`,
-              fullCode: `public AppCompatSpinner(@NonNull Context context, int mode)`,
+              code: `<a href="#AppCompatSpinner(Context,int)">AppCompatSpinner</a>(@NonNull Context context, int mode)`,
+              fullCode: `public <a href="#AppCompatSpinner(Context,int)">AppCompatSpinner</a>(@NonNull Context context, int mode)`,
 
               des: `Is constructor ke through hum spinner ko MODE_DIALOG ya MODE_DROPDOWN mode mein initialize kar sakte hain.`,
 
@@ -120,12 +120,12 @@ module.exports.AppCompatSpinner = (req, res) => {
               dep: false,
               name: `AppCompatSpinner`,
               id: "AppCompatSpinner(Context,AttributeSet,int)",
-              code: `AppCompatSpinner(
+              code: `<a href="#AppCompatSpinner(Context,AttributeSet,int)">AppCompatSpinner</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public AppCompatSpinner(
+              fullCode: `public <a href="#AppCompatSpinner(Context,AttributeSet,int)">AppCompatSpinner</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
@@ -161,13 +161,13 @@ module.exports.AppCompatSpinner = (req, res) => {
               dep: false,
               name: `AppCompatSpinner`,
               id: "AppCompatSpinner(Context,AttributeSet,int,int)",
-              code: `AppCompatSpinner(
+              code: `<a href="#AppCompatSpinner(Context,AttributeSet,int,int)">AppCompatSpinner</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr,
                 int mode
             )`,
-              fullCode: `public AppCompatSpinner(
+              fullCode: `public <a href="#AppCompatSpinner(Context,AttributeSet,int,int)">AppCompatSpinner</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr,
@@ -211,14 +211,14 @@ module.exports.AppCompatSpinner = (req, res) => {
               dep: false,
               name: `AppCompatSpinner`,
               id: "AppCompatSpinner(Context,AttributeSet,int,int,Resources.Theme)",
-              code: `AppCompatSpinner(
+              code: `<a href="#AppCompatSpinner(Context,AttributeSet,int,int,Resources.Theme)">AppCompatSpinner</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr,
                 int mode,
                 Resources.Theme popupTheme
             )`,
-              fullCode: `public AppCompatSpinner(
+              fullCode: `public <a href="#AppCompatSpinner(Context,AttributeSet,int,int,Resources.Theme)">AppCompatSpinner</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr,

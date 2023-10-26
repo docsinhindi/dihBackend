@@ -29,11 +29,11 @@ module.exports.SplitPlaceholderRule_Builder = (req, res) => {
               dep: false,
               name: `Builder`,
               id: "Builder()",
-              code: `Builder(
+              code: `<a href="#Builder()">Builder</a>(
                 @NonNull Set<@NonNull ActivityFilter> filters,
                 @NonNull Intent placeholderIntent
             )`,
-              fullCode: `public Builder(
+              fullCode: `public <a href="#Builder()">Builder</a>(
                 @NonNull Set<@NonNull ActivityFilter> filters,
                 @NonNull Intent placeholderIntent
             )`,

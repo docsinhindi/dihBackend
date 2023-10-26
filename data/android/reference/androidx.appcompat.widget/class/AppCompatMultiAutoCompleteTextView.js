@@ -32,9 +32,9 @@ module.exports.AppCompatMultiAutoCompleteTextView = (req, res) => {
               dep: false,
               name: `AppCompatMultiAutoCompleteTextView`,
               id: "AppCompatMultiAutoCompleteTextView(Context)",
-              code: `AppCompatMultiAutoCompleteTextView(@NonNull Context context)`,
+              code: `<a href="#AppCompatMultiAutoCompleteTextView(Context)">AppCompatMultiAutoCompleteTextView</a>(@NonNull Context context)`,
 
-              fullCode: `public AppCompatMultiAutoCompleteTextView(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatMultiAutoCompleteTextView(Context)">AppCompatMultiAutoCompleteTextView</a>(@NonNull Context context)`,
 
               des: `Ye constructor, AppCompatMultiAutoCompleteTextView view ka ek naya instance create karta hai.`,
 
@@ -62,12 +62,12 @@ module.exports.AppCompatMultiAutoCompleteTextView = (req, res) => {
               dep: false,
               name: `AppCompatMultiAutoCompleteTextView`,
               id: "AppCompatMultiAutoCompleteTextView(Context,AttributeSet)",
-              code: `AppCompatMultiAutoCompleteTextView(
+              code: `<a href="#AppCompatMultiAutoCompleteTextView(Context,AttributeSet)">AppCompatMultiAutoCompleteTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs
             )`,
 
-              fullCode: `public AppCompatMultiAutoCompleteTextView(
+              fullCode: `public <a href="#AppCompatMultiAutoCompleteTextView(Context,AttributeSet)">AppCompatMultiAutoCompleteTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs
             )`,
@@ -104,13 +104,13 @@ module.exports.AppCompatMultiAutoCompleteTextView = (req, res) => {
               dep: false,
               name: `AppCompatMultiAutoCompleteTextView`,
               id: "AppCompatMultiAutoCompleteTextView(Context,AttributeSet,int)",
-              code: `AppCompatMultiAutoCompleteTextView(
+              code: `<a href="#AppCompatMultiAutoCompleteTextView(Context,AttributeSet,int)">AppCompatMultiAutoCompleteTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
 
-              fullCode: `public AppCompatMultiAutoCompleteTextView(
+              fullCode: `public <a href="#AppCompatMultiAutoCompleteTextView(Context,AttributeSet,int)">AppCompatMultiAutoCompleteTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

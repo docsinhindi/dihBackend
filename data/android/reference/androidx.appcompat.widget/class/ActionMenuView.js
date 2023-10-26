@@ -33,8 +33,8 @@ module.exports.ActionMenuView = (req, res) => {
               dep: false,
               name: `ActionMenuView`,
               id: "ActionMenuView(Context)",
-              code: `ActionMenuView(@NonNull Context context)`,
-              fullCode: `public ActionMenuView(@NonNull Context context)`,
+              code: `<a href="#ActionMenuView(Context)">ActionMenuView</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#ActionMenuView(Context)">ActionMenuView</a>(@NonNull Context context)`,
 
               des: `Ye constructor, ActionMenuView class ka ek instance create karne ke liye use hota hai.`,
 
@@ -61,8 +61,8 @@ module.exports.ActionMenuView = (req, res) => {
               dep: false,
               name: `ActionMenuView`,
               id: "ActionMenuView(Context,AttributeSet)",
-              code: `ActionMenuView(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public ActionMenuView(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              code: `<a href="#ActionMenuView(Context,AttributeSet)">ActionMenuView</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#ActionMenuView(Context,AttributeSet)">ActionMenuView</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Ye constructor, ActionMenuView class ka instance create karne ke liye use hota hai aur XML layout file se attribute set ko bhi handle karta hai.`,
 

@@ -30,8 +30,8 @@ module.exports.ActivityFilter = (req, res) => {
               dep: false,
               name: `ActivityFilter`,
               id: "ActivityFilter()",
-              code: `ActivityFilter(@NonNull ComponentName componentName, String intentAction)`,
-              fullCode: `public ActivityFilter(@NonNull ComponentName componentName, String intentAction)`,
+              code: `<a href="#ActivityFilter()">ActivityFilter</a>(@NonNull ComponentName componentName, String intentAction)`,
+              fullCode: `public <a href="#ActivityFilter()">ActivityFilter</a>(@NonNull ComponentName componentName, String intentAction)`,
 
               des: `Ye constructor ek new ActivityFilter object create karta hai aur usme di gayi ComponentName aur intentAction ki values ko set karta hai.`,
 

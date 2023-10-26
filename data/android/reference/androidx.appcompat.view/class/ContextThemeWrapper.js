@@ -33,8 +33,8 @@ module.exports.ContextThemeWrapper = (req, res) => {
               dep: false,
               name: `ContextThemeWrapper`,
               id: "ContextThemeWrapper()",
-              code: `ContextThemeWrapper()`,
-              fullCode: `public ContextThemeWrapper()`,
+              code: `<a href="#ContextThemeWrapper()">ContextThemeWrapper</a>()`,
+              fullCode: `public <a href="#ContextThemeWrapper()">ContextThemeWrapper</a>()`,
 
               des: `Ye constructor, ContextThemeWrapper class ka ek naya instance banata hai.`,
 
@@ -51,8 +51,8 @@ module.exports.ContextThemeWrapper = (req, res) => {
               dep: false,
               name: `ContextThemeWrapper`,
               id: "ContextThemeWrapper(Context,Resources.Theme)",
-              code: `ContextThemeWrapper(Context base, Resources.Theme theme)`,
-              fullCode: `public ContextThemeWrapper(Context base, Resources.Theme theme)`,
+              code: `<a href="#ContextThemeWrapper(Context,Resources.Theme)">ContextThemeWrapper</a>(Context base, Resources.Theme theme)`,
+              fullCode: `public <a href="#ContextThemeWrapper(Context,Resources.Theme)">ContextThemeWrapper</a>(Context base, Resources.Theme theme)`,
 
               des: `Ye constructor, ContextThemeWrapper class ka ek naya instance banata hai aur base Context object aur theme ko specify karta hai.`,
 
@@ -84,8 +84,8 @@ module.exports.ContextThemeWrapper = (req, res) => {
               dep: false,
               name: `ContextThemeWrapper`,
               id: "ContextThemeWrapper(Context,int)",
-              code: `ContextThemeWrapper(Context base, @StyleRes int themeResId)`,
-              fullCode: `public ContextThemeWrapper(Context base, @StyleRes int themeResId)`,
+              code: `<a href="#ContextThemeWrapper(Context,int)">ContextThemeWrapper</a>(Context base, @StyleRes int themeResId)`,
+              fullCode: `public <a href="#ContextThemeWrapper(Context,int)">ContextThemeWrapper</a>(Context base, @StyleRes int themeResId)`,
 
               des: `Ye constructor, ContextThemeWrapper class ka ek naya instance banata hai aur base Context object aur theme resource ID (themeResId) ko specify karta hai.`,
 

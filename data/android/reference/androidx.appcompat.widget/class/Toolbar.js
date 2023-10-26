@@ -31,9 +31,9 @@ module.exports.Toolbar = (req, res) => {
             {
               dep: false,
               name: `Toolbar`,
-              id: "Toolbar()",
-              code: `Toolbar(@NonNull Context context)`,
-              fullCode: `public Toolbar(@NonNull Context context)`,
+              id: "Toolbar(Context)",
+              code: `<a href="#Toolbar(Context)">Toolbar</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#Toolbar(Context)">Toolbar</a>(@NonNull Context context)`,
 
               des: `Is constructor ka use, Toolbar view ko code mein dynamically create karne ke liye hota hai.`,
 
@@ -58,9 +58,9 @@ module.exports.Toolbar = (req, res) => {
             {
               dep: false,
               name: `Toolbar`,
-              id: "Toolbar()",
-              code: `Toolbar(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public Toolbar(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              id: "Toolbar(Context,AttributeSet)",
+              code: `<a href="#Toolbar(Context,AttributeSet)">Toolbar</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#Toolbar(Context,AttributeSet)">Toolbar</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Is constructor ka use, Toolbar view ko XML layout file mein define karne ke liye hota hai, jisse aap usko layout file se inflate kar sakte hain aur uske attributes ko set kar sakte hain.`,
 
@@ -89,13 +89,13 @@ module.exports.Toolbar = (req, res) => {
             {
               dep: false,
               name: `Toolbar`,
-              id: "Toolbar()",
-              code: `Toolbar(
+              id: "Toolbar(Context,AttributeSet,int)",
+              code: `<a href="#Toolbar(Context,AttributeSet,int)">Toolbar</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public Toolbar(
+              fullCode: `public <a href="#Toolbar(Context,AttributeSet,int)">Toolbar</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

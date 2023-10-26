@@ -29,8 +29,8 @@ module.exports.SplitPairRule_Builder = (req, res) => {
               dep: false,
               name: `Builder`,
               id: "Builder()",
-              code: `Builder(@NonNull Set<@NonNull SplitPairFilter> filters)`,
-              fullCode: `public Builder(@NonNull Set<@NonNull SplitPairFilter> filters)`,
+              code: `<a href="#Builder()">Builder</a>(@NonNull Set<@NonNull SplitPairFilter> filters)`,
+              fullCode: `public <a href="#Builder()">Builder</a>(@NonNull Set<@NonNull SplitPairFilter> filters)`,
 
               des: `Is constructor ka use SplitPairRule.Builder object ko initialize karne ke liye hota hai.`,
 

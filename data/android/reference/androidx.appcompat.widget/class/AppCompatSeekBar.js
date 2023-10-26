@@ -32,8 +32,8 @@ module.exports.AppCompatSeekBar = (req, res) => {
               dep: false,
               name: `AppCompatSeekBar`,
               id: "AppCompatSeekBar(Context)",
-              code: `AppCompatSeekBar(@NonNull Context context)`,
-              fullCode: `public AppCompatSeekBar(@NonNull Context context)`,
+              code: `<a href="#AppCompatSeekBar(Context)">AppCompatSeekBar</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatSeekBar(Context)">AppCompatSeekBar</a>(@NonNull Context context)`,
 
               des: `Ye constructor, AppCompatSeekBar view ko programmaticaly create karne aur initialize karne ke liye hota hai.`,
 
@@ -62,8 +62,8 @@ module.exports.AppCompatSeekBar = (req, res) => {
               dep: false,
               name: `AppCompatSeekBar`,
               id: "AppCompatSeekBar(Context,AttributeSet)",
-              code: `AppCompatSeekBar(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public AppCompatSeekBar(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              code: `<a href="#AppCompatSeekBar(Context,AttributeSet)">AppCompatSeekBar</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#AppCompatSeekBar(Context,AttributeSet)">AppCompatSeekBar</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Ye constructor, AppCompatSeekBar view ko XML layout file se inflate karne aur initialize karne ke liye hota hai. Is constructor mein AppCompatSeekBar view ko XML attributes ke sath initialize karne ki capability hoti hai.`,
 
@@ -96,12 +96,12 @@ module.exports.AppCompatSeekBar = (req, res) => {
               dep: false,
               name: `AppCompatSeekBar`,
               id: "AppCompatSeekBar(Context,AttributeSet,int)",
-              code: `AppCompatSeekBar(
+              code: `<a href="#AppCompatSeekBar(Context,AttributeSet,int)">AppCompatSeekBar</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public AppCompatSeekBar(
+              fullCode: `public <a href="#AppCompatSeekBar(Context,AttributeSet,int)">AppCompatSeekBar</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

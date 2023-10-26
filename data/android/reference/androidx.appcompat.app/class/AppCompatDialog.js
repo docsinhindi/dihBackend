@@ -40,8 +40,8 @@ module.exports.AppCompatDialog = (req, res) => {
               dep: false,
               name: `AppCompatDialog`,
               id: "AppCompatDialog(Context)",
-              code: `AppCompatDialog(@NonNull Context context)`,
-              fullCode: `public AppCompatDialog(@NonNull Context context)`,
+              code: `<a href="#AppCompatDialog(Context)">AppCompatDialog</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatDialog(Context)">AppCompatDialog</a>(@NonNull Context context)`,
               des: `Ye constructor, AppCompatDialog object ko create karne ke liye hota hai.`,
 
               longDes: `<p>Ye constructor, AppCompatDialog object ko create karne ke liye hota hai.</p>
@@ -66,8 +66,8 @@ module.exports.AppCompatDialog = (req, res) => {
               dep: false,
               name: `AppCompatDialog`,
               id: "AppCompatDialog(Context,int)",
-              code: `AppCompatDialog(@NonNull Context context, int theme)`,
-              fullCode: `public AppCompatDialog(@NonNull Context context, int theme)`,
+              code: `<a href="#AppCompatDialog(Context,int)">AppCompatDialog</a>(@NonNull Context context, int theme)`,
+              fullCode: `public <a href="#AppCompatDialog(Context,int)">AppCompatDialog</a>(@NonNull Context context, int theme)`,
               des: `Ye constructor, AppCompatDialog object ko create karne ke liye hota hai aur ek specific theme ko apply karne ki suvidha deta hai.`,
 
               longDes: `<p>Ye constructor, AppCompatDialog object ko create karne ke liye hota hai aur ek specific theme ko apply karne ki suvidha deta hai.</p>

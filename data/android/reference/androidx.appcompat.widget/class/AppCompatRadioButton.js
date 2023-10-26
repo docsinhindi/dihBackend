@@ -32,8 +32,8 @@ module.exports.AppCompatRadioButton = (req, res) => {
               dep: false,
               name: `AppCompatRadioButton`,
               id: "AppCompatRadioButton(Context)",
-              code: `AppCompatRadioButton(Context context)`,
-              fullCode: `public AppCompatRadioButton(Context context)`,
+              code: `<a href="#AppCompatRadioButton(Context)">AppCompatRadioButton</a>(Context context)`,
+              fullCode: `public <a href="#AppCompatRadioButton(Context)">AppCompatRadioButton</a>(Context context)`,
 
               des: `Ye constructor, AppCompatRadioButton view ko initialize karne ke liye hota hai.`,
 
@@ -63,8 +63,8 @@ module.exports.AppCompatRadioButton = (req, res) => {
               dep: false,
               name: `AppCompatRadioButton`,
               id: "AppCompatRadioButton(Context,AttributeSet)",
-              code: `AppCompatRadioButton(Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public AppCompatRadioButton(Context context, @Nullable AttributeSet attrs)`,
+              code: `<a href="#AppCompatRadioButton(Context,AttributeSet)">AppCompatRadioButton</a>(Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#AppCompatRadioButton(Context,AttributeSet)">AppCompatRadioButton</a>(Context context, @Nullable AttributeSet attrs)`,
 
               des: `Ye constructor, AppCompatRadioButton view ko XML layout file se inflate karne aur initialize karne ke liye hota hai.`,
 
@@ -95,12 +95,12 @@ module.exports.AppCompatRadioButton = (req, res) => {
               dep: false,
               name: `AppCompatRadioButton`,
               id: "AppCompatRadioButton(Context,AttributeSet,int)",
-              code: `AppCompatRadioButton(
+              code: `<a href="#AppCompatRadioButton(Context,AttributeSet,int)">AppCompatRadioButton</a>(
                 Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public AppCompatRadioButton(
+              fullCode: `public <a href="#AppCompatRadioButton(Context,AttributeSet,int)">AppCompatRadioButton</a>(
                 Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

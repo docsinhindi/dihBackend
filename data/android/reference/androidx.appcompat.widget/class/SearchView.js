@@ -33,9 +33,9 @@ module.exports.SearchView = (req, res) => {
             {
               dep: false,
               name: `SearchView`,
-              id: "SearchView()",
-              code: `SearchView(@NonNull Context context)`,
-              fullCode: `public SearchView(@NonNull Context context)`,
+              id: "SearchView(Context)",
+              code: `<a href="#SearchView(Context)">SearchView</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#SearchView(Context)">SearchView</a>(@NonNull Context context)`,
 
               des: `Is constructor ka upayog, SearchView widget ko ek Context object ke sath create karne ke liye hota hai.`,
 
@@ -60,9 +60,9 @@ module.exports.SearchView = (req, res) => {
             {
               dep: false,
               name: `SearchView`,
-              id: "SearchView()",
-              code: `SearchView(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public SearchView(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              id: "SearchView(Context,AttributeSet)",
+              code: `<a href="#SearchView(Context,AttributeSet)">SearchView</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#SearchView(Context,AttributeSet)">SearchView</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Is constructor ka upayog, SearchView widget ko ek Context object aur XML attributes ke sath create karne ke liye hota hai.`,
 
@@ -93,13 +93,13 @@ module.exports.SearchView = (req, res) => {
             {
               dep: false,
               name: `SearchView`,
-              id: "SearchView()",
-              code: `SearchView(
+              id: "SearchView(Context,AttributeSet,int)",
+              code: `<a href="#SearchView(Context,AttributeSet,int)">SearchView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public SearchView(
+              fullCode: `public <a href="#SearchView(Context,AttributeSet,int)">SearchView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

@@ -32,8 +32,8 @@ module.exports.ActionMode = (req, res) => {
               dep: false,
               name: `ActionMode`,
               id: "ActionMode()",
-              code: `ActionMode()`,
-              fullCode: `public ActionMode()`,
+              code: `<a href="#ActionMode()">ActionMode</a>()`,
+              fullCode: `public <a href="#ActionMode()">ActionMode</a>()`,
 
               des: ``,
 

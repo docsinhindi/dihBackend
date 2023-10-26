@@ -32,10 +32,10 @@ module.exports.LinearLayoutCompat = (req, res) => {
             {
               dep: false,
               name: "HORIZONTAL",
-              id: "",
+              id: "HORIZONTAL",
               dataTypeName: `static final int`,
-              code: `HORIZONTAL = 0`,
-              fullCode: `public static final int HORIZONTAL = 0`,
+              code: `<a href="#HORIZONTAL">HORIZONTAL</a> = 0`,
+              fullCode: `public static final int <a href="#HORIZONTAL">HORIZONTAL</a> = 0`,
 
               des:`Is constant ka use, LinearLayoutCompat view ko horizontal orientation mein arrange karne ke liye hota hai.`,
 
@@ -52,10 +52,10 @@ module.exports.LinearLayoutCompat = (req, res) => {
             {
               dep: false,
               name: "SHOW_DIVIDER_BEGINNING",
-              id: "",
+              id: "SHOW_DIVIDER_BEGINNING",
               dataTypeName: `static final int`,
-              code: `SHOW_DIVIDER_BEGINNING = 1`,
-              fullCode: `public static final int SHOW_DIVIDER_BEGINNING = 1`,
+              code: `<a href="#SHOW_DIVIDER_BEGINNING">SHOW_DIVIDER_BEGINNING</a> = 1`,
+              fullCode: `public static final int <a href="#SHOW_DIVIDER_BEGINNING">SHOW_DIVIDER_BEGINNING</a> = 1`,
 
               des:`Is constant ka use, LinearLayoutCompat view mein child views ke beech mein divider (separation line) ko show karne ke liye hota hai, aur ye divider view ke beginning (shuruaat) mein display kiya jata hai.`,
 
@@ -72,10 +72,10 @@ module.exports.LinearLayoutCompat = (req, res) => {
             {
               dep: false,
               name: "SHOW_DIVIDER_END",
-              id: "",
+              id: "SHOW_DIVIDER_END",
               dataTypeName: `static final int`,
-              code: `SHOW_DIVIDER_END = 4`,
-              fullCode: `public static final int SHOW_DIVIDER_END = 4`,
+              code: `<a href="#SHOW_DIVIDER_END">SHOW_DIVIDER_END</a> = 4`,
+              fullCode: `public static final int <a href="#SHOW_DIVIDER_END">SHOW_DIVIDER_END</a> = 4`,
 
               des:`Is constant ka use, LinearLayoutCompat view mein child views ke beech mein divider (separation line) ko show karne ke liye hota hai, aur ye divider view ke end (ant) mein display kiya jata hai.`,
 
@@ -92,10 +92,10 @@ module.exports.LinearLayoutCompat = (req, res) => {
             {
               dep: false,
               name: "SHOW_DIVIDER_MIDDLE",
-              id: "",
+              id: "SHOW_DIVIDER_MIDDLE",
               dataTypeName: `static final int`,
-              code: `SHOW_DIVIDER_MIDDLE = 2`,
-              fullCode: `public static final int SHOW_DIVIDER_MIDDLE = 2`,
+              code: `<a href="#SHOW_DIVIDER_MIDDLE">SHOW_DIVIDER_MIDDLE</a> = 2`,
+              fullCode: `public static final int <a href="#SHOW_DIVIDER_MIDDLE">SHOW_DIVIDER_MIDDLE</a> = 2`,
 
               des:`Is constant ka use, LinearLayoutCompat view mein child views ke beech mein divider (separation line) ko show karne ke liye hota hai, aur ye divider view ke middle mein display kiya jata hai.`,
 
@@ -111,10 +111,10 @@ module.exports.LinearLayoutCompat = (req, res) => {
             {
               dep: false,
               name: "SHOW_DIVIDER_NONE",
-              id: "",
+              id: "SHOW_DIVIDER_NONE",
               dataTypeName: `static final int`,
-              code: `SHOW_DIVIDER_NONE = 0`,
-              fullCode: `public static final int SHOW_DIVIDER_NONE = 0`,
+              code: `<a href="#SHOW_DIVIDER_NONE">SHOW_DIVIDER_NONE</a> = 0`,
+              fullCode: `public static final int <a href="#SHOW_DIVIDER_NONE">SHOW_DIVIDER_NONE</a> = 0`,
 
               des:`Is constant ka use, LinearLayoutCompat view mein child views ke beech mein koi divider (separation line) show karne ke liye nahi hota hai. Yani ki, SHOW_DIVIDER_NONE constant ka value 0 hota hai, isse indicate kiya jata hai ki LinearLayoutCompat view mein koi bhi divider display nahi hoga.`,
 
@@ -130,10 +130,10 @@ module.exports.LinearLayoutCompat = (req, res) => {
             {
               dep: false,
               name: "VERTICAL",
-              id: "",
+              id: "VERTICAL",
               dataTypeName: `static final int`,
-              code: `VERTICAL = 1`,
-              fullCode: `public static final int VERTICAL = 1`,
+              code: `<a href="#VERTICAL">VERTICAL</a> = 1`,
+              fullCode: `public static final int <a href="#VERTICAL">VERTICAL</a> = 1`,
 
               des:`Is constant ka use, LinearLayoutCompat view ko vertical orientation mein arrange karne ke liye hota hai.`,
 
@@ -159,8 +159,8 @@ module.exports.LinearLayoutCompat = (req, res) => {
               dep: false,
               name: `LinearLayoutCompat`,
               id: "LinearLayoutCompat(Context)",
-              code: `LinearLayoutCompat(@NonNull Context context)`,
-              fullCode: `public LinearLayoutCompat(@NonNull Context context)`,
+              code: `<a href="#LinearLayoutCompat(Context)">LinearLayoutCompat</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#LinearLayoutCompat(Context)">LinearLayoutCompat</a>(@NonNull Context context)`,
 
               des: `Is constructor ka use, LinearLayoutCompat class se ek naya LinearLayoutCompat view object create karne ke liye hota hai.`,
 
@@ -187,8 +187,8 @@ module.exports.LinearLayoutCompat = (req, res) => {
               dep: false,
               name: `LinearLayoutCompat`,
               id: "LinearLayoutCompat(Context,AttributeSet)",
-              code: `LinearLayoutCompat(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public LinearLayoutCompat(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              code: `<a href="#LinearLayoutCompat(Context,AttributeSet)">LinearLayoutCompat</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#LinearLayoutCompat(Context,AttributeSet)">LinearLayoutCompat</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Is constructor ka use, LinearLayoutCompat class se ek naya LinearLayoutCompat view object create karne ke liye hota hai.`,
 
@@ -221,12 +221,12 @@ module.exports.LinearLayoutCompat = (req, res) => {
               dep: false,
               name: `LinearLayoutCompat`,
               id: "LinearLayoutCompat(Context,AttributeSet,int)",
-              code: `LinearLayoutCompat(
+              code: `<a href="#LinearLayoutCompat(Context,AttributeSet,int)">LinearLayoutCompat</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public LinearLayoutCompat(
+              fullCode: `public <a href="#LinearLayoutCompat(Context,AttributeSet,int)">LinearLayoutCompat</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

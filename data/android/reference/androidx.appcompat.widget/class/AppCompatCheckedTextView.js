@@ -32,8 +32,8 @@ module.exports.AppCompatCheckedTextView = (req, res) => {
               dep: false,
               name: `AppCompatCheckedTextView`,
               id: "AppCompatCheckedTextView(Context)",
-              code: `AppCompatCheckedTextView(@NonNull Context context)`,
-              fullCode: `public AppCompatCheckedTextView(@NonNull Context context)`,
+              code: `<a href="#AppCompatCheckedTextView(Context)">AppCompatCheckedTextView</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatCheckedTextView(Context)">AppCompatCheckedTextView</a>(@NonNull Context context)`,
 
               des: `Is constructor ka use, AppCompatCheckedTextView class ka ek instance create karne ke liye hota hai.`,
 
@@ -59,12 +59,12 @@ module.exports.AppCompatCheckedTextView = (req, res) => {
               dep: false,
               name: `AppCompatCheckedTextView`,
               id: "AppCompatCheckedTextView(Context,AttributeSet)",
-              code: `AppCompatCheckedTextView(
+              code: `<a href="#AppCompatCheckedTextView(Context,AttributeSet)">AppCompatCheckedTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs
             )`,
 
-              fullCode: `public AppCompatCheckedTextView(
+              fullCode: `public <a href="#AppCompatCheckedTextView(Context,AttributeSet)">AppCompatCheckedTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs
             )`,
@@ -98,13 +98,13 @@ module.exports.AppCompatCheckedTextView = (req, res) => {
               dep: false,
               name: `AppCompatCheckedTextView`,
               id: "AppCompatCheckedTextView(Context,AttributeSet,int)",
-              code: `AppCompatCheckedTextView(
+              code: `<a href="#AppCompatCheckedTextView(Context,AttributeSet,int)">AppCompatCheckedTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
 
-              fullCode: `public AppCompatCheckedTextView(
+              fullCode: `public <a href="#AppCompatCheckedTextView(Context,AttributeSet,int)">AppCompatCheckedTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

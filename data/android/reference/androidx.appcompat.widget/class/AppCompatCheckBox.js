@@ -32,8 +32,8 @@ module.exports.AppCompatCheckBox = (req, res) => {
               dep: false,
               name: `AppCompatCheckBox`,
               id: "AppCompatCheckBox(Context)",
-              code: `AppCompatCheckBox(@NonNull Context context)`,
-              fullCode: `public AppCompatCheckBox(@NonNull Context context)`,
+              code: `<a href="#AppCompatCheckBox(Context)">AppCompatCheckBox</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatCheckBox(Context)">AppCompatCheckBox</a>(@NonNull Context context)`,
 
               des: `Is constructor ka use AppCompatCheckBox widget ko create aur initialize karne ke liye kiya jata hai.`,
 
@@ -60,8 +60,8 @@ module.exports.AppCompatCheckBox = (req, res) => {
               dep: false,
               name: `AppCompatCheckBox`,
               id: "AppCompatCheckBox(Context,AttributeSet)",
-              code: `AppCompatCheckBox(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public AppCompatCheckBox(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              code: `<a href="#AppCompatCheckBox(Context,AttributeSet)">AppCompatCheckBox</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#AppCompatCheckBox(Context,AttributeSet)">AppCompatCheckBox</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Is constructor ka use AppCompatCheckBox widget ko XML layout se inflate karke create aur initialize karne ke liye kiya jata hai.`,
 
@@ -93,12 +93,12 @@ module.exports.AppCompatCheckBox = (req, res) => {
               dep: false,
               name: `AppCompatCheckBox`,
               id: "AppCompatCheckBox(Context,AttributeSet,int)",
-              code: `AppCompatCheckBox(
+              code: `<a href="#AppCompatCheckBox(Context,AttributeSet,int)">AppCompatCheckBox</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public AppCompatCheckBox(
+              fullCode: `public <a href="#AppCompatCheckBox(Context,AttributeSet,int)">AppCompatCheckBox</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

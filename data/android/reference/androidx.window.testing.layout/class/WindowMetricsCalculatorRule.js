@@ -29,8 +29,8 @@ module.exports.WindowMetricsCalculatorRule = (req, res) => {
               dep: false,
               name: `WindowMetricsCalculatorRule`,
               id: "WindowMetricsCalculatorRule()",
-              code: `WindowMetricsCalculatorRule()`,
-              fullCode: `public WindowMetricsCalculatorRule()`,
+              code: `<a href="#WindowMetricsCalculatorRule()">WindowMetricsCalculatorRule</a>()`,
+              fullCode: `public <a href="#WindowMetricsCalculatorRule()">WindowMetricsCalculatorRule</a>()`,
 
               des: `Is constructor ka use window metrics ko calculate aur simulate karne ke liye hota hai testing scenarios mein.`,
 

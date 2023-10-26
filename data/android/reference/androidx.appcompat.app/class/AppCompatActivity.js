@@ -45,8 +45,10 @@ module.exports.AppCompatActivity = (req, res) => {
               dep: false,
               name: `AppCompatActivity`,
               id: "AppCompatActivity()",
-              code: `AppCompatActivity()`,
-              fullCode: `public AppCompatActivity()`,
+              code: `<a href="#AppCompatActivity()">AppCompatActivity</a>()`,
+
+              fullCode: `public <a href="#AppCompatActivity()">AppCompatActivity</a>()`,
+
               des: `Is constructor ka use AppCompatActivity class ke objects banane ke liye kiya jata hai.`,
 
               longDes: `<p>Is constructor ka use AppCompatActivity class ke objects banane ke liye kiya jata hai.</p>
@@ -65,8 +67,8 @@ module.exports.AppCompatActivity = (req, res) => {
               dep: false,
               name: `AppCompatActivity`,
               id: "AppCompatActivity(int)",
-              code: `@ContentView </br>AppCompatActivity(@LayoutRes int contentLayoutId)`,
-              fullCode: `@ContentView </br>public AppCompatActivity(@LayoutRes int contentLayoutId)`,
+              code: `@ContentView </br><a href="#AppCompatActivity(int)">AppCompatActivity</a>(@LayoutRes int contentLayoutId)`,
+              fullCode: `@ContentView </br>public <a href="#AppCompatActivity(int)">AppCompatActivity</a>(@LayoutRes int contentLayoutId)`,
 
               des: `AppCompatActivity constructor public AppCompatActivity(@LayoutRes int contentLayoutId) ek parameter leta hai, jise contentLayoutId kaha jata hai. Yeh parameter ek layout resource identifier hai, jise Activity ke content view ke roop mein set karne ke liye use kiya jata hai.`,
 

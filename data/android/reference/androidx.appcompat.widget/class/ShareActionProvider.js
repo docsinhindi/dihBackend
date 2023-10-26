@@ -33,11 +33,11 @@ module.exports.ShareActionProvider = (req, res) => {
           {
             dep: false,
             name: `DEFAULT_SHARE_HISTORY_FILE_NAME`,
-            id: "",
+            id: "DEFAULT_SHARE_HISTORY_FILE_NAME",
             dataTypeName: `static final String`,
-            code: `DEFAULT_SHARE_HISTORY_FILE_NAME = "share_history.xml"`,
+            code: `<a href="#DEFAULT_SHARE_HISTORY_FILE_NAME">DEFAULT_SHARE_HISTORY_FILE_NAME</a> = "share_history.xml"`,
 
-            fullCode: `public static final String DEFAULT_SHARE_HISTORY_FILE_NAME = "share_history.xml"`,
+            fullCode: `public static final String <a href="#DEFAULT_SHARE_HISTORY_FILE_NAME">DEFAULT_SHARE_HISTORY_FILE_NAME</a> = "share_history.xml"`,
 
             des: `Iska use default share history file name ko represent karne ke liye hota hai.`,
 
@@ -60,9 +60,9 @@ module.exports.ShareActionProvider = (req, res) => {
             {
               dep: false,
               name: `ShareActionProvider`,
-              id: "ShareActionProvider()",
-              code: `ShareActionProvider(Context context)`,
-              fullCode: `public ShareActionProvider(Context context)`,
+              id: "ShareActionProvider(Context)",
+              code: `<a href="#ShareActionProvider(Context)">ShareActionProvider</a>(Context context)`,
+              fullCode: `public <a href="#ShareActionProvider(Context)">ShareActionProvider</a>(Context context)`,
 
               des: `Is constructor ka use karke aap ek share button (action provider) ko action bar ya toolbar mein add kar sakte hain, jisse users content ko easy way mein share kar sakte hain.`,
 

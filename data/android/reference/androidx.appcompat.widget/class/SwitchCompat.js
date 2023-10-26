@@ -31,9 +31,9 @@ module.exports.SwitchCompat = (req, res) => {
             {
               dep: false,
               name: `SwitchCompat`,
-              id: "SwitchCompat()",
-              code: `SwitchCompat(@NonNull Context context)`,
-              fullCode: `public SwitchCompat(@NonNull Context context)`,
+              id: "SwitchCompat(Context)",
+              code: `<a href="#SwitchCompat(Context)">SwitchCompat</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#SwitchCompat(Context)">SwitchCompat</a>(@NonNull Context context)`,
 
               des: `Is constructor ka use, SwitchCompat view ko initialize karne ke liye hota hai.`,
 
@@ -60,9 +60,9 @@ module.exports.SwitchCompat = (req, res) => {
             {
               dep: false,
               name: `SwitchCompat`,
-              id: "SwitchCompat()",
-              code: `SwitchCompat(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public SwitchCompat(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              id: "SwitchCompat(Context,AttributeSet)",
+              code: `<a href="#SwitchCompat(Context,AttributeSet)">SwitchCompat</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#SwitchCompat(Context,AttributeSet)">SwitchCompat</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Is constructor ka use, SwitchCompat view ko XML layout file se inflate karne aur XML attributes ko parse karne ke liye hota hai.`,
 
@@ -91,13 +91,13 @@ module.exports.SwitchCompat = (req, res) => {
             {
               dep: false,
               name: `SwitchCompat`,
-              id: "SwitchCompat()",
-              code: `SwitchCompat(
+              id: "SwitchCompat(Context,AttributeSet,int)",
+              code: `<a href="#SwitchCompat(Context,AttributeSet,int)">SwitchCompat</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public SwitchCompat(
+              fullCode: `public <a href="#SwitchCompat(Context,AttributeSet,int)">SwitchCompat</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

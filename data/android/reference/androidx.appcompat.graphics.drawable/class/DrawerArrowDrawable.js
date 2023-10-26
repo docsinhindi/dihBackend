@@ -32,10 +32,10 @@ module.exports.DrawerArrowDrawable = (req, res) => {
             {
               dep: false,
               name: "ARROW_DIRECTION_END",
-              id: "",
+              id: "ARROW_DIRECTION_END",
               dataTypeName: `static final int`,
-              code: `ARROW_DIRECTION_END = 3`,
-              fullCode: `public static final int ARROW_DIRECTION_END = 3`,
+              code: `<a href="#ARROW_DIRECTION_END">ARROW_DIRECTION_END</a> = 3`,
+              fullCode: `public static final int <a href="#ARROW_DIRECTION_END">ARROW_DIRECTION_END</a> = 3`,
 
               des:`ARROW_DIRECTION_END ka value 3 hai, aur iska use arrow ke disha ko specify karne ke liye kiya jata hai. Yahan, 3 ka matlab hai ki arrow ka direction end (ant) ki taraf hai..`,
 
@@ -62,10 +62,10 @@ module.exports.DrawerArrowDrawable = (req, res) => {
             {
               dep: false,
               name: "ARROW_DIRECTION_LEFT",
-              id: "",
+              id: "ARROW_DIRECTION_LEFT",
               dataTypeName: `static final int`,
-              code: `ARROW_DIRECTION_LEFT = 0`,
-              fullCode: `public static final int ARROW_DIRECTION_LEFT = 0`,
+              code: `<a href="#ARROW_DIRECTION_LEFT">ARROW_DIRECTION_LEFT</a> = 0`,
+              fullCode: `public static final int <a href="#ARROW_DIRECTION_LEFT">ARROW_DIRECTION_LEFT</a> = 0`,
 
               des:`ARROW_DIRECTION_LEFT ka value 0 hai, aur iska use arrow ke disha ko specify karne ke liye kiya jata hai. Yahan, 0 ka matlab hai ki arrow ka direction left (baayein) ki taraf hai.`,
 
@@ -94,10 +94,10 @@ module.exports.DrawerArrowDrawable = (req, res) => {
             {
               dep: false,
               name: "ARROW_DIRECTION_RIGHT",
-              id: "",
+              id: "ARROW_DIRECTION_RIGHT",
               dataTypeName: `static final int`,
-              code: `ARROW_DIRECTION_RIGHT = 1`,
-              fullCode: `public static final int ARROW_DIRECTION_RIGHT = 1`,
+              code: `<a href="#ARROW_DIRECTION_RIGHT">ARROW_DIRECTION_RIGHT</a> = 1`,
+              fullCode: `public static final int <a href="#ARROW_DIRECTION_RIGHT">ARROW_DIRECTION_RIGHT</a> = 1`,
 
               des:`ARROW_DIRECTION_RIGHT ka value 1 hai, aur iska use arrow ke disha ko specify karne ke liye kiya jata hai. Yahan, 1 ka matlab hai ki arrow ka direction right (daayein) ki taraf hai.`,
 
@@ -125,10 +125,10 @@ module.exports.DrawerArrowDrawable = (req, res) => {
             {
               dep: false,
               name: "ARROW_DIRECTION_START",
-              id: "",
+              id: "ARROW_DIRECTION_START",
               dataTypeName: `static final int`,
-              code: `ARROW_DIRECTION_START = 2`,
-              fullCode: `public static final int ARROW_DIRECTION_START = 2`,
+              code: `<a href="#ARROW_DIRECTION_START">ARROW_DIRECTION_START</a> = 2`,
+              fullCode: `public static final int <a href="#ARROW_DIRECTION_START">ARROW_DIRECTION_START</a> = 2`,
 
               des:`ARROW_DIRECTION_START ka value 2 hai, aur iska use arrow ke disha ko specify karne ke liye kiya jata hai. Yahan, 2 ka matlab hai ki arrow ka direction start (shuruat) ki taraf hai.`,
 
@@ -168,8 +168,8 @@ module.exports.DrawerArrowDrawable = (req, res) => {
               dep: false,
               name: `DrawerArrowDrawable`,
               id: "DrawerArrowDrawable()",
-              code: `DrawerArrowDrawable(Context context)`,
-              fullCode: `public DrawerArrowDrawable(Context context)`,
+              code: `<a href="#DrawerArrowDrawable()">DrawerArrowDrawable</a>(Context context)`,
+              fullCode: `public <a href="#DrawerArrowDrawable()">DrawerArrowDrawable</a>(Context context)`,
 
               des: `Ye constructor, DrawerArrowDrawable object ko initialize karne ke liye upyog hota hai.`,
 

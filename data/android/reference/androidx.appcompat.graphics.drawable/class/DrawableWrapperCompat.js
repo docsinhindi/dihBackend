@@ -32,8 +32,8 @@ module.exports.DrawableWrapperCompat = (req, res) => {
               dep: false,
               name: `DrawableWrapperCompat`,
               id: "DrawableWrapperCompat()",
-              code: `DrawableWrapperCompat(Drawable drawable)`,
-              fullCode: `public DrawableWrapperCompat(Drawable drawable)`,
+              code: `<a href="#DrawableWrapperCompat()">DrawableWrapperCompat</a>(Drawable drawable)`,
+              fullCode: `public <a href="#DrawableWrapperCompat()">DrawableWrapperCompat</a>(Drawable drawable)`,
 
               des: `Ye constructor, DrawableWrapperCompat ke object ko initialize karne ke liye istemal hota hai.`,
 

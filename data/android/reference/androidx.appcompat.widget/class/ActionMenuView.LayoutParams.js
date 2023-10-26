@@ -32,8 +32,8 @@ module.exports.ActionMenuView_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(ActionMenuView.LayoutParams)",
-              code: `LayoutParams(ActionMenuView.LayoutParams other)`,
-              fullCode: `public LayoutParams(ActionMenuView.LayoutParams other)`,
+              code: `<a href="#LayoutParams(ActionMenuView.LayoutParams)">LayoutParams</a>(ActionMenuView.LayoutParams other)`,
+              fullCode: `public <a href="#LayoutParams(ActionMenuView.LayoutParams)">LayoutParams</a>(ActionMenuView.LayoutParams other)`,
 
               des: `Ye constructor, ActionMenuView.LayoutParams ke ek instance ko dusre instance se copy karne ke liye use hota hai.`,
 
@@ -58,8 +58,8 @@ module.exports.ActionMenuView_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(ViewGroup.LayoutParams)",
-              code: `LayoutParams(ViewGroup.LayoutParams other)`,
-              fullCode: `public LayoutParams(ViewGroup.LayoutParams other)`,
+              code: `<a href="#LayoutParams(ViewGroup.LayoutParams)">LayoutParams</a>(ViewGroup.LayoutParams other)`,
+              fullCode: `public <a href="#LayoutParams(ViewGroup.LayoutParams)">LayoutParams</a>(ViewGroup.LayoutParams other)`,
 
               des: `Ye constructor, ActionMenuView.LayoutParams ke instance ko dusre ViewGroup.LayoutParams instance se initialize karne ke liye use hota hai.`,
 
@@ -85,8 +85,8 @@ module.exports.ActionMenuView_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(Context,AttributeSet)",
-              code: `LayoutParams(Context c, AttributeSet attrs)`,
-              fullCode: `public LayoutParams(Context c, AttributeSet attrs)`,
+              code: `<a href="#LayoutParams(Context,AttributeSet)">LayoutParams</a>(Context c, AttributeSet attrs)`,
+              fullCode: `public <a href="#LayoutParams(Context,AttributeSet)">LayoutParams</a>(Context c, AttributeSet attrs)`,
 
               des: `Ye constructor, ActionMenuView.LayoutParams ke instance ko context aur attribute set se initialize karne ke liye use hota hai.`,
 
@@ -116,8 +116,8 @@ module.exports.ActionMenuView_LayoutParams = (req, res) => {
               dep: false,
               name: `LayoutParams`,
               id: "LayoutParams(int,int)",
-              code: `LayoutParams(int width, int height)`,
-              fullCode: `public LayoutParams(int width, int height)`,
+              code: `<a href="#LayoutParams(int,int)">LayoutParams</a>(int width, int height)`,
+              fullCode: `public <a href="#LayoutParams(int,int)">LayoutParams</a>(int width, int height)`,
 
               des: `Ye constructor, ActionMenuView.LayoutParams ke instance ko width aur height ke values se initialize karne ke liye use hota hai.`,
 

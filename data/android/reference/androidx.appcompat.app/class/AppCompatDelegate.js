@@ -26,10 +26,10 @@ module.exports.AppCompatDelegate = (req, res) => {
             {
               dep: false,
               name: "FEATURE_ACTION_MODE_OVERLAY",
-              id: "",
+              id: "FEATURE_ACTION_MODE_OVERLAY",
               dataTypeName: `static final int`,
-              code: `FEATURE_ACTION_MODE_OVERLAY = 10`,
-              fullCode: `public static final int FEATURE_ACTION_MODE_OVERLAY = 10`,
+              code: `<a href="#FEATURE_ACTION_MODE_OVERLAY">FEATURE_ACTION_MODE_OVERLAY</a> = 10`,
+              fullCode: `public static final int <a href="#FEATURE_ACTION_MODE_OVERLAY">FEATURE_ACTION_MODE_OVERLAY</a> = 10`,
 
               des:`FEATURE_ACTION_MODE_OVERLAY ka use ActionMode overlay mode ke liye kiya jata hai. Jab overlay mode enable hota hai, ActionMode contextual action bar screen ke upar overlay ke roop mein show hota hai. Isse action bar ke space par koi overlap nahi hota hai aur action items ko focus rakha jata hai.`,
               
@@ -43,10 +43,10 @@ module.exports.AppCompatDelegate = (req, res) => {
             {
               dep: false,
               name: "FEATURE_SUPPORT_ACTION_BAR",
-              id: "",
+              id: "FEATURE_SUPPORT_ACTION_BAR",
               dataTypeName: `static final int`,
-              code: `FEATURE_SUPPORT_ACTION_BAR = 108`,
-              fullCode: `public static final int FEATURE_SUPPORT_ACTION_BAR = 108`,
+              code: `<a href="#FEATURE_SUPPORT_ACTION_BAR">FEATURE_SUPPORT_ACTION_BAR</a> = 108`,
+              fullCode: `public static final int <a href="#FEATURE_SUPPORT_ACTION_BAR">FEATURE_SUPPORT_ACTION_BAR</a> = 108`,
 
               des:`FEATURE_SUPPORT_ACTION_BAR ka use support action bar (v7 appcompat action bar) ke liye kiya jata hai. Is constant ka value Window.FEATURE_ACTION_BAR ke saath match karta hai, jise Android framework Window class ke addFeature() method mein use kiya jata hai.`,
               
@@ -61,10 +61,10 @@ module.exports.AppCompatDelegate = (req, res) => {
             {
               dep: false,
               name: "FEATURE_SUPPORT_ACTION_BAR_OVERLAY",
-              id: "",
+              id: "FEATURE_SUPPORT_ACTION_BAR_OVERLAY",
               dataTypeName: `static final int`,
-              code: `FEATURE_SUPPORT_ACTION_BAR_OVERLAY = 109`,
-              fullCode: `public static final int FEATURE_SUPPORT_ACTION_BAR_OVERLAY = 109`,
+              code: `<a href="#FEATURE_SUPPORT_ACTION_BAR_OVERLAY">FEATURE_SUPPORT_ACTION_BAR_OVERLAY</a> = 109`,
+              fullCode: `public static final int <a href="#FEATURE_SUPPORT_ACTION_BAR_OVERLAY">FEATURE_SUPPORT_ACTION_BAR_OVERLAY</a> = 109`,
 
               des:`FEATURE_SUPPORT_ACTION_BAR_OVERLAY ka use support action bar overlay mode ke liye kiya jata hai. Jab overlay mode enable hota hai, support action bar screen ke upar overlay ke roop mein show hota hai. Isse action bar ke space par koi overlap nahi hota hai aur action items ko focus rakha jata hai.`,
               
@@ -79,10 +79,10 @@ module.exports.AppCompatDelegate = (req, res) => {
             {
               dep: false,
               name: "MODE_NIGHT_AUTO",
-              id: "",
+              id: "MODE_NIGHT_AUTO",
               dataTypeName: `static final int`,
-              code: `MODE_NIGHT_AUTO = 0`,
-              fullCode: `public static final int MODE_NIGHT_AUTO = 0`,
+              code: `<a href="#MODE_NIGHT_AUTO">MODE_NIGHT_AUTO</a> = 0`,
+              fullCode: `public static final int <a href="#MODE_NIGHT_AUTO">MODE_NIGHT_AUTO</a> = 0`,
 
               des:`MODE_NIGHT_AUTO ka value 0 hai, aur iska use dark mode (night mode) ke automatic behavior ko configure karne ke liye kiya jata hai.`,
               
@@ -100,10 +100,10 @@ module.exports.AppCompatDelegate = (req, res) => {
             {
               dep: false,
               name: "MODE_NIGHT_AUTO_BATTERY",
-              id: "",
+              id: "MODE_NIGHT_AUTO_BATTERY",
               dataTypeName: `static final int`,
-              code: `MODE_NIGHT_AUTO_BATTERY = 3`,
-              fullCode: `public static final int MODE_NIGHT_AUTO_BATTERY = 3`,
+              code: `<a href="#MODE_NIGHT_AUTO_BATTERY">MODE_NIGHT_AUTO_BATTERY</a> = 3`,
+              fullCode: `public static final int <a href="#MODE_NIGHT_AUTO_BATTERY">MODE_NIGHT_AUTO_BATTERY</a> = 3`,
 
               des:`MODE_NIGHT_AUTO_BATTERY ka value 3 hai, aur iska use automatic dark mode (night mode) behavior ko configure karne ke liye kiya jata hai, jahan dark mode battery saver mode ke saath associate kiya jata hai.`,
               
@@ -121,10 +121,10 @@ module.exports.AppCompatDelegate = (req, res) => {
             {
               dep: false,
               name: "MODE_NIGHT_AUTO_TIME",
-              id: "",
+              id: "MODE_NIGHT_AUTO_TIME",
               dataTypeName: `static final int`,
-              code: `MODE_NIGHT_AUTO_TIME = 0`,
-              fullCode: `public static final int MODE_NIGHT_AUTO_TIME = 0`,
+              code: `<a href="#MODE_NIGHT_AUTO_TIME">MODE_NIGHT_AUTO_TIME</a> = 0`,
+              fullCode: `public static final int <a href="#MODE_NIGHT_AUTO_TIME">MODE_NIGHT_AUTO_TIME</a> = 0`,
 
               des:`current samay ke based per dark/night ke automatic switching deprecate karta hai.`,
               
@@ -144,10 +144,10 @@ module.exports.AppCompatDelegate = (req, res) => {
             {
               dep: false,
               name: "MODE_NIGHT_FOLLOW_SYSTEM",
-              id: "",
+              id: "MODE_NIGHT_FOLLOW_SYSTEM",
               dataTypeName: `static final int`,
-              code: `MODE_NIGHT_FOLLOW_SYSTEM = -1`,
-              fullCode: `public static final int MODE_NIGHT_FOLLOW_SYSTEM = -1`,
+              code: `<a href="#MODE_NIGHT_FOLLOW_SYSTEM">MODE_NIGHT_FOLLOW_SYSTEM</a> = -1`,
+              fullCode: `public static final int <a href="#MODE_NIGHT_FOLLOW_SYSTEM">MODE_NIGHT_FOLLOW_SYSTEM</a> = -1`,
 
               des:`MODE_NIGHT_FOLLOW_SYSTEM ka value -1 hai, aur iska use automatic dark mode (night mode) behavior ko configure karne ke liye kiya jata hai, jahan dark mode system settings ke saath associate kiya jata hai.`,
               
@@ -161,10 +161,10 @@ module.exports.AppCompatDelegate = (req, res) => {
             {
               dep: false,
               name: "MODE_NIGHT_NO",
-              id: "",
+              id: "MODE_NIGHT_NO",
               dataTypeName: `static final int`,
-              code: `MODE_NIGHT_NO = 1`,
-              fullCode: `public static final int MODE_NIGHT_NO = 1`,
+              code: `<a href="#MODE_NIGHT_NO">MODE_NIGHT_NO</a> = 1`,
+              fullCode: `public static final int <a href="#MODE_NIGHT_NO">MODE_NIGHT_NO</a> = 1`,
 
               des:`MODE_NIGHT_NO ka value 1 hai, aur iska use dark mode (night mode) ko disable karne ke liye kiya jata hai.`,
               
@@ -179,10 +179,10 @@ module.exports.AppCompatDelegate = (req, res) => {
             {
               dep: false,
               name: "MODE_NIGHT_UNSPECIFIED",
-              id: "",
+              id: "MODE_NIGHT_UNSPECIFIED",
               dataTypeName: `static final int`,
-              code: `MODE_NIGHT_UNSPECIFIED = -100`,
-              fullCode: `public static final int MODE_NIGHT_UNSPECIFIED = -100`,
+              code: `<a href="#MODE_NIGHT_UNSPECIFIED">MODE_NIGHT_UNSPECIFIED</a> = -100`,
+              fullCode: `public static final int <a href="#MODE_NIGHT_UNSPECIFIED">MODE_NIGHT_UNSPECIFIED</a> = -100`,
 
               des:`night mode ke liye eak unspecified mode`,
               
@@ -196,10 +196,10 @@ module.exports.AppCompatDelegate = (req, res) => {
             {
               dep: false,
               name: "MODE_NIGHT_YES",
-              id: "",
+              id: "MODE_NIGHT_YES",
               dataTypeName: `static final int`,
-              code: `MODE_NIGHT_YES = 2`,
-              fullCode: `public static final int MODE_NIGHT_YES = 2`,
+              code: `<a href="#MODE_NIGHT_YES">MODE_NIGHT_YES</a> = 2`,
+              fullCode: `public static final int <a href="#MODE_NIGHT_YES">MODE_NIGHT_YES</a> = 2`,
 
               des:`MODE_NIGHT_YES ka value 2 hai, aur iska use dark mode (night mode) ko enable karne ke liye kiya jata hai.`,
               

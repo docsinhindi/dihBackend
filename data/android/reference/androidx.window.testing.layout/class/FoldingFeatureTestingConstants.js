@@ -30,11 +30,11 @@ module.exports.FoldingFeatureTestingConstants = (req, res) => {
           {
             dep: true,
             name: `FOLDING_FEATURE_CENTER_DEFAULT`,
-            id: "",
+            id: "FOLDING_FEATURE_CENTER_DEFAULT",
             dataTypeName: `static final int`,
-            code: `FOLDING_FEATURE_CENTER_DEFAULT`,
+            code: `<a href="#FOLDING_FEATURE_CENTER_DEFAULT">FOLDING_FEATURE_CENTER_DEFAULT</a>`,
 
-            fullCode: `public static final int FOLDING_FEATURE_CENTER_DEFAULT`,
+            fullCode: `public static final int <a href="#FOLDING_FEATURE_CENTER_DEFAULT">FOLDING_FEATURE_CENTER_DEFAULT</a>`,
 
             des: `FOLDING_FEATURE_CENTER_DEFAULT ek constant hota hai jo folding feature ke center position ka default value represent karta hai. Iska use folding display feature ke mock scenarios mein default center position set karne ke liye hota hai.`,
 

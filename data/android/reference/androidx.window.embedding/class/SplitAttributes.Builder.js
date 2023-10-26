@@ -32,8 +32,8 @@ module.exports.SplitAttributes_Builder = (req, res) => {
               dep: false,
               name: `Builder`,
               id: "Builder()",
-              code: `Builder()`,
-              fullCode: `public Builder()`,
+              code: `<a href="#Builder()">Builder</a>()`,
+              fullCode: `public <a href="#Builder()">Builder</a>()`,
 
               des: `Builder constructor ka use ek new SplitAttributes.Builder object create karne ke liye hota hai.`,
 

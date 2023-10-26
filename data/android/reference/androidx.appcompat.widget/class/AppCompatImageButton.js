@@ -32,9 +32,9 @@ module.exports.AppCompatImageButton = (req, res) => {
               dep: false,
               name: `AppCompatImageButton`,
               id: "AppCompatImageButton(Context)",
-              code: `AppCompatImageButton(@NonNull Context context)`,
+              code: `<a href="#AppCompatImageButton(Context)">AppCompatImageButton</a>(@NonNull Context context)`,
 
-              fullCode: `public AppCompatImageButton(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatImageButton(Context)">AppCompatImageButton</a>(@NonNull Context context)`,
 
               des: `AppCompatImageButton class ka ek constructor hai, jo AppCompatImageButton ke objects ko initialize karne ke liye use hota hai.`,
 
@@ -64,12 +64,12 @@ module.exports.AppCompatImageButton = (req, res) => {
               dep: false,
               name: `AppCompatImageButton`,
               id: "AppCompatImageButton(Context,AttributeSet)",
-              code: `AppCompatImageButton(
+              code: `<a href="#AppCompatImageButton(Context,AttributeSet)">AppCompatImageButton</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs
             )`,
 
-              fullCode: `public AppCompatImageButton(
+              fullCode: `public <a href="#AppCompatImageButton(Context,AttributeSet)">AppCompatImageButton</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs
             )`,
@@ -105,13 +105,13 @@ module.exports.AppCompatImageButton = (req, res) => {
               dep: false,
               name: `AppCompatImageButton`,
               id: "AppCompatImageButton(Context,AttributeSet,int)",
-              code: `AppCompatImageButton(
+              code: `<a href="#AppCompatImageButton(Context,AttributeSet,int)">AppCompatImageButton</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
 
-              fullCode: `public AppCompatImageButton(
+              fullCode: `public <a href="#AppCompatImageButton(Context,AttributeSet,int)">AppCompatImageButton</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

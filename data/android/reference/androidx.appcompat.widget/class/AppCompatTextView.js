@@ -32,8 +32,8 @@ module.exports.AppCompatTextView = (req, res) => {
               dep: false,
               name: `AppCompatTextView`,
               id: "AppCompatTextView(Context)",
-              code: `AppCompatTextView(@NonNull Context context)`,
-              fullCode: `public AppCompatTextView(@NonNull Context context)`,
+              code: `<a href="#AppCompatTextView(Context)">AppCompatTextView</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatTextView(Context)">AppCompatTextView</a>(@NonNull Context context)`,
 
               des: `Ye constructor, AppCompatTextView ka ek instance (object) create karne ke liye use hota hai.`,
 
@@ -62,8 +62,8 @@ module.exports.AppCompatTextView = (req, res) => {
               dep: false,
               name: `AppCompatTextView`,
               id: "AppCompatTextView(Context,AttributeSet)",
-              code: `AppCompatTextView(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public AppCompatTextView(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              code: `<a href="#AppCompatTextView(Context,AttributeSet)">AppCompatTextView</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#AppCompatTextView(Context,AttributeSet)">AppCompatTextView</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Is constructor ke through, hum AppCompatTextView ka ek object create kar sakte hain.`,
 
@@ -96,12 +96,12 @@ module.exports.AppCompatTextView = (req, res) => {
               dep: false,
               name: `AppCompatTextView`,
               id: "AppCompatTextView(Context,AttributeSet,int)",
-              code: `AppCompatTextView(
+              code: `<a href="#AppCompatTextView(Context,AttributeSet,int)">AppCompatTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public AppCompatTextView(
+              fullCode: `public <a href="#AppCompatTextView(Context,AttributeSet,int)">AppCompatTextView</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

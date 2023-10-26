@@ -32,8 +32,8 @@ module.exports.AppCompatEditText = (req, res) => {
               dep: false,
               name: `AppCompatEditText`,
               id: "AppCompatEditText(Context)",
-              code: `AppCompatEditText(@NonNull Context context)`,
-              fullCode: `public AppCompatEditText(@NonNull Context context)`,
+              code: `<a href="#AppCompatEditText(Context)">AppCompatEditText</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatEditText(Context)">AppCompatEditText</a>(@NonNull Context context)`,
 
               des: `Is constructor ka use AppCompatEditText view ko create karne ke liye hota hai.`,
 
@@ -59,8 +59,8 @@ module.exports.AppCompatEditText = (req, res) => {
               dep: false,
               name: `AppCompatEditText`,
               id: "AppCompatEditText(Context,AttributeSet)",
-              code: `AppCompatEditText(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public AppCompatEditText(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              code: `<a href="#AppCompatEditText(Context,AttributeSet)">AppCompatEditText</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#AppCompatEditText(Context,AttributeSet)">AppCompatEditText</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `AppCompatEditText class ka ye constructor XML layout file mein define kiye gaye EditText element ko inflate karne ke liye use hota hai`,
 
@@ -91,13 +91,13 @@ module.exports.AppCompatEditText = (req, res) => {
               dep: false,
               name: `AppCompatEditText`,
               id: "AppCompatEditText(Context,AttributeSet,int)",
-              code: `AppCompatEditText(
+              code: `<a href="#AppCompatEditText(Context,AttributeSet,int)">AppCompatEditText</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
 
-              fullCode: `public AppCompatEditText(
+              fullCode: `public <a href="#AppCompatEditText(Context,AttributeSet,int)">AppCompatEditText</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

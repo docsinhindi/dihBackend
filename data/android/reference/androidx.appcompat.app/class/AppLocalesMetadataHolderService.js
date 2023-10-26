@@ -30,8 +30,8 @@ module.exports.AppLocalesMetadataHolderService = (req, res) => {
               dep: false,
               name: `AppLocalesMetadataHolderService`,
               id: "AppLocalesMetadataHolderService()",
-              code: `AppLocalesMetadataHolderService()`,
-              fullCode: `public AppLocalesMetadataHolderService()`,
+              code: `<a href="#AppLocalesMetadataHolderService()">AppLocalesMetadataHolderService</a>()`,
+              fullCode: `public <a href="#AppLocalesMetadataHolderService()">AppLocalesMetadataHolderService</a>()`,
 
               des: ``,
 

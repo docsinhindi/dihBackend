@@ -29,8 +29,8 @@ module.exports.SplitControllerCallbackAdapter = (req, res) => {
               dep: false,
               name: `SplitControllerCallbackAdapter`,
               id: "SplitControllerCallbackAdapter()",
-              code: `SplitControllerCallbackAdapter(@NonNull SplitController controller)`,
-              fullCode: `public SplitControllerCallbackAdapter(@NonNull SplitController controller)`,
+              code: `<a href="#SplitControllerCallbackAdapter()">SplitControllerCallbackAdapter</a>(@NonNull SplitController controller)`,
+              fullCode: `public <a href="#SplitControllerCallbackAdapter()">SplitControllerCallbackAdapter</a>(@NonNull SplitController controller)`,
 
               des: `Is constructor ka use SplitControllerCallbackAdapter class ke objects ko initialize karne ke liye hota hai, jisse unka internal state set ho sake.`,
 

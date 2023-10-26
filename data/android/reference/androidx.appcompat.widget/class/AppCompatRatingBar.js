@@ -32,8 +32,8 @@ module.exports.AppCompatRatingBar = (req, res) => {
               dep: false,
               name: `AppCompatRatingBar`,
               id: "AppCompatRatingBar(Context)",
-              code: `AppCompatRatingBar(@NonNull Context context)`,
-              fullCode: `public AppCompatRatingBar(@NonNull Context context)`,
+              code: `<a href="#AppCompatRatingBar(Context)">AppCompatRatingBar</a>(@NonNull Context context)`,
+              fullCode: `public <a href="#AppCompatRatingBar(Context)">AppCompatRatingBar</a>(@NonNull Context context)`,
 
               des: `Ye constructor, AppCompatRatingBar class ka ek instance (object) create karne ke liye use hota hai.`,
 
@@ -62,8 +62,8 @@ module.exports.AppCompatRatingBar = (req, res) => {
               dep: false,
               name: `AppCompatRatingBar`,
               id: "AppCompatRatingBar(Context,AttributeSet)",
-              code: `AppCompatRatingBar(@NonNull Context context, @Nullable AttributeSet attrs)`,
-              fullCode: `public AppCompatRatingBar(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              code: `<a href="#AppCompatRatingBar(Context,AttributeSet)">AppCompatRatingBar</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
+              fullCode: `public <a href="#AppCompatRatingBar(Context,AttributeSet)">AppCompatRatingBar</a>(@NonNull Context context, @Nullable AttributeSet attrs)`,
 
               des: `Ye constructor AppCompatRatingBar class ke object (instance) ko create karne mein use hota hai, jab aap rating bar widget ko XML layout mein define karte hain.`,
 
@@ -96,12 +96,12 @@ module.exports.AppCompatRatingBar = (req, res) => {
               dep: false,
               name: `AppCompatRatingBar`,
               id: "AppCompatRatingBar(Context,AttributeSet,int)",
-              code: `AppCompatRatingBar(
+              code: `<a href="#AppCompatRatingBar(Context,AttributeSet,int)">AppCompatRatingBar</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr
             )`,
-              fullCode: `public AppCompatRatingBar(
+              fullCode: `public <a href="#AppCompatRatingBar(Context,AttributeSet,int)">AppCompatRatingBar</a>(
                 @NonNull Context context,
                 @Nullable AttributeSet attrs,
                 int defStyleAttr

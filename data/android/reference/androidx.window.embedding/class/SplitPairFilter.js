@@ -32,13 +32,13 @@ module.exports.SplitPairFilter = (req, res) => {
               dep: false,
               name: `SplitPairFilter`,
               id: "SplitPairFilter()",
-              code: `SplitPairFilter(
+              code: `<a href="#SplitPairFilter()">SplitPairFilter</a>(
                 @NonNull ComponentName primaryActivityName,
                 @NonNull ComponentName secondaryActivityName,
                 String secondaryActivityIntentAction
             )`,
 
-              fullCode: `public SplitPairFilter(
+              fullCode: `public <a href="#SplitPairFilter()">SplitPairFilter</a>(
                 @NonNull ComponentName primaryActivityName,
                 @NonNull ComponentName secondaryActivityName,
                 String secondaryActivityIntentAction

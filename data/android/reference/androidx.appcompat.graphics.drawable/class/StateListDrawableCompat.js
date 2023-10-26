@@ -32,8 +32,8 @@ module.exports.StateListDrawableCompat = (req, res) => {
               dep: false,
               name: `StateListDrawableCompat`,
               id: "StateListDrawableCompat()",
-              code: `StateListDrawableCompat()`,
-              fullCode: `public StateListDrawableCompat()`,
+              code: `<a href="#StateListDrawableCompat()">StateListDrawableCompat</a>()`,
+              fullCode: `public <a href="#StateListDrawableCompat()">StateListDrawableCompat</a>()`,
 
               des: `Ye constructor, StateListDrawableCompat object ka creation karne ke liye use hota hai.`,
 
