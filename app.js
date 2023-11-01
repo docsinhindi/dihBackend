@@ -21,6 +21,7 @@ const app = express();
 const htmlIdeRouter = require("./routes/html/htmlide")
 const htmlTutorialRouter = require("./routes/html/tutorial")
 const androidReferenceRouter = require('./routes/android/reference')
+const AllTutorialRouter = require("./routes/HomePage/AllTutorial")
 
 const contactRouter = require("./routes/contact");
 const feedbackRouter = require("./routes/feedback");
@@ -54,9 +55,13 @@ app.use('/html/tutorial', htmlTutorialRouter);
 
 app.use('/html', htmlIdeRouter);
 
+// homepage router
+app.use("/allTutorial",AllTutorialRouter);
+
 
 //other
 app.use("/",contactRouter);
+
 
 app.use("/",feedbackRouter);
 
