@@ -54,4 +54,32 @@ module.exports.all_tutorial =[
             }
         ]
     },
+
+    {
+        name: "CSS",
+        img:`https://docsinhindi.s3.ap-south-1.amazonaws.com/dih/css_card.png`,
+        fullUrl:`/css/tutorial/css_demo`,
+        popularLink:[
+            {
+                name:"CSS Introduction",
+                url:`/css/tutorial/css_introduction`
+            },
+            {
+                name:"CSS Background",
+                url:`/css/tutorial/css_background`
+            },
+            {
+                name:"CSS Selectors",
+                url:`/css/tutorial/css_selectors`
+            },
+            {
+                name:"CSS Margin",
+                url:`/css/tutorial/css_margin`
+            },
+            {
+                name:"CSS Padding",
+                url:`/css/tutorial/css_padding`
+            },
+        ]
+    },
 ]

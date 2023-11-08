@@ -158,6 +158,7 @@ codeDes:{
     arr:[
         {
         name:"color:",
+        language:"css",
         des:"<p>Text ka rang set karta hai.</p>",
         code:
 `p {
@@ -167,6 +168,7 @@ codeDes:{
 
         {
         name:"font-size:",
+        language:"css",
         des:"<p>Font ka size set karta hai.</p>",
         code:
 `p {
@@ -177,6 +179,7 @@ codeDes:{
 
         {
         name:"background-color:",
+        language:"css",
         des:"<p>Background ka rang set karta hai.</p>",
         code:
 `body {
@@ -186,6 +189,7 @@ codeDes:{
 
         {
         name:"margin:",
+        language:"css",
         des:"<p>Element ke bahar ka space set karta hai.</p>",
         code:
 `div {
@@ -196,6 +200,7 @@ codeDes:{
 
         {
         name:"padding:",
+        language:"css",
         des:"<p>Element ke andar ka space set karta hai.</p>",
         code:
 `div {
@@ -207,6 +212,7 @@ codeDes:{
 
         {
         name:"border:",
+        language:"css",
         des:"<p>Element ke border ka style, color, aur width set karta hai.</p>",
         code:
 `div {
@@ -217,6 +223,7 @@ codeDes:{
 
         {
         name:"text-align:",
+        language:"css",
         des:"<p>Text ka alignment set karta hai.</p>",
         code:
 `h1 {
@@ -228,6 +235,7 @@ codeDes:{
 
         {
         name:"float:",
+        language:"css",
         des:"<p>Element ko left ya right par float karta hai.</p>",
         code:
 `img {
@@ -238,6 +246,7 @@ codeDes:{
 
         {
         name:"display:",
+        language:"css",
         des:"<p>Element ka display property set karta hai (block, inline, inline-block, etc.).</p>",
         code:
 `span {
@@ -248,6 +257,7 @@ codeDes:{
 
         {
         name:"position:",
+        language:"css",
         des:"<p>Element ka positioning set karta hai (relative, absolute, fixed, etc.).</p>",
         code:
 `div {
