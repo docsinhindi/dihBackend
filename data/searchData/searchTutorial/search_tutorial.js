@@ -1,4 +1,4 @@
-module.exports.html_tutorial = [
+module.exports.search_tutorial = [
     {
         title: `HTML tutorial`,
         link: `/html/tutorial/html_demo`
@@ -251,5 +251,69 @@ module.exports.html_tutorial = [
         
         "link": "/html/tutorial/html_svg"
     },
+
+
+
+    // css tutorial 
+
+
+    {
+        "title":"CSS",
+
+        "link":"/css/tutorial/css_demo",
+    },
+    {
+        "title":"CSS Introduction",
+
+        "link":"/css/tutorial/css_introduction",
+    },
+    
+            {
+                "title":"Add CSS",
+
+                "link":"/css/tutorial/add_css",
+                
+            },
+            {
+                "title":"CSS Syntax",
+                
+                "link":"/css/tutorial/css_syntax"
+            },
+            {
+                "title":"CSS Selectors",
+                
+                "link":"/css/tutorial/css_selectors"
+            },
+            {
+                "title":"CSS Colors",
+                
+                "link":"/css/tutorial/css_colors",
+                
+            },
+            {
+                "title":"CSS Background",
+                
+                "link":"/css/tutorial/css_background"
+            },
+            {
+                "title":"CSS Comments",
+                
+                "link":"/css/tutorial/css_comments"
+            },
+            {
+                "title":"CSS Borders",
+                
+                "link":"/css/tutorial/css_borders"
+            },
+            {
+                "title":"CSS Margin",
+                
+                "link":"/css/tutorial/css_margin"
+            },
+            {
+                "title":"CSS Padding",
+                
+                "link":"/css/tutorial/css_padding"
+            },
 
 ]

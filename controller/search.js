@@ -1,9 +1,7 @@
 const { androidx_appcompat_app } = require("../data/searchData/android/androidx.appcompat.app");
 const { androidx_appcompat_content_res } = require("../data/searchData/android/androidx.appcompat.content.res");
 const { androidx_appcompat_graphics_drawable } = require("../data/searchData/android/androidx.appcompat.graphics.drawable");
-const { create_html_file } = require("../data/html/tutorial/create_html_file");
-const { html_introduction } = require("../data/html/tutorial/html_introduction");
-const { html_tutorial } = require("../data/searchData/html/html_tutorial");
+const { search_tutorial } = require("../data/searchData/searchTutorial/search_tutorial");
 
 
 const handleSearch = (req, res)=>{
@@ -12,7 +10,7 @@ const handleSearch = (req, res)=>{
   const { q, page = 1 } = req.query; // get the search query and current page number from the request query params
 
     const data = {
-       html: html_tutorial,
+       searchTutorial: search_tutorial,
        
         android:[
         androidx_appcompat_app,
@@ -22,7 +20,7 @@ const handleSearch = (req, res)=>{
 }
 
    
-const filteredHtmlResults = data.html.filter((result) => {
+const filteredHtmlResults = data.searchTutorial.filter((result) => {
     return result.title.toLowerCase().includes(q.toLowerCase()) || result.title.split(" ").some(spData => spData.toLowerCase().includes(q.toLowerCase()));
   }); 
   
