@@ -315,5 +315,17 @@ module.exports.search_tutorial = [
                 
                 "link":"/css/tutorial/css_padding"
             },
+            
+            {
+                "title":"CSS Height",
+
+                "link":"/css/tutorial/css_height_and_width"
+            },
+
+            {
+                "title":"CSS Width",
+
+                "link":"/css/tutorial/css_height_and_width"
+            },
 
 ]

@@ -11,6 +11,7 @@ const { css_comments } = require('../../data/css/tutorial/css_comments');
 const { css_borders } = require('../../data/css/tutorial/css_borders');
 const { css_margin } = require('../../data/css/tutorial/css_margin');
 const { css_padding } = require('../../data/css/tutorial/css_padding');
+const { css_height_and_width } = require('../../data/css/tutorial/css_height_and_width');
 
 router.get('/css_introduction',(req,res)=>{
     res.json(css_introduction)
@@ -47,6 +48,9 @@ router.get('/css_margin',(req,res)=>{
 });
 router.get('/css_padding',(req,res)=>{
     res.json(css_padding)
+});
+router.get('/css_height_and_width',(req,res)=>{
+    res.json(css_height_and_width)
 });
 
 module.exports = router;
