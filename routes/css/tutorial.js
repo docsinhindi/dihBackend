@@ -53,4 +53,23 @@ router.get('/css_height_and_width',(req,res)=>{
     res.json(css_height_and_width)
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+router.get('/*',(req,res)=>{
+    res.status(404).json({
+            success:false
+        })
+});
+
 module.exports = router;
