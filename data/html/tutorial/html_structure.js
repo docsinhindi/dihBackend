@@ -11,7 +11,7 @@ module.exports.html_structure ={
     ],
 
 
-    des:``,
+    des:`<p>HTML structure ek web page ke layout, content, aur elements ko define karta hai. Yeh ek web page ke sare elements ko organize karta hai, including headings, paragraphs, links, images, forms, and more. Niche ek basic HTML structure diya gaya hai:</p>`,
 
     points:[
         {
