@@ -81,26 +81,149 @@ module.exports.css_padding = {
     
                 height:"250px",
     
-                output:false,
+                output:true,
     
                 des:`
                 <p>Aap <strong>padding-top</strong>, <strong>padding-right</strong>, <strong>padding-bottom</strong>, aur <strong>padding-left</strong> se har taraf alag-alag padding set kar sakte hain.</p>`,
     
                 
                 img:``,
-    
-                code:``,
+                code:
+`
+.solid {
+  border-width: 5px;
+  border-style: solid;
+}
 
+.dotted {
+  border-width: 5px;
+  border-style: dotted;
+}
+
+.dashed {
+  border-width: 5px;
+  border-style: dashed;
+}
+
+.double {
+  border-width: 5px;
+  border-style: double;
+}
+
+.groove {
+  border-width: 5px;
+  border-style: groove;
+}
+
+.ridge {
+  border-width: 5px;
+  border-style: ridge;
+}
+
+.inset {
+  border-width: 5px;
+  border-style: inset;
+}
+
+.outset {
+  border-width: 5px;
+  border-style: outset;
+}
+
+.none {
+  border: none;
+}`,
                 fullCode:
-``,
-                des2:``,
+    `<!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    body{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:10px;
+    }
+      .box {
+        width: 120px;
+        height: 100px;
+        margin: 20px 5px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        
+
+      }
+    
+      .solid {
+        border-width: 5px;
+        border-style: solid;
+      }
+    
+      .dotted {
+        border-width: 5px;
+        border-style: dotted;
+      }
+    
+      .dashed {
+        border-width: 5px;
+        border-style: dashed;
+      }
+    
+      .double {
+        border-width: 5px;
+        border-style: double;
+      }
+    
+      .groove {
+        border-width: 5px;
+        border-style: groove;
+      }
+    
+      .ridge {
+        border-width: 5px;
+        border-style: ridge;
+      }
+    
+      .inset {
+        border-width: 5px;
+        border-style: inset;
+      }
+    
+      .outset {
+        border-width: 5px;
+        border-style: outset;
+      }
+    
+      .none {
+        border: none;
+      }
+    
+    </style>
+    </head>
+    <body>
+    
+    <div class="box solid">Solid Border</div>
+    <div class="box dotted">Dotted Border</div>
+    <div class="box dashed">Dashed Border</div>
+    <div class="box double">Double Border</div>
+    <div class="box groove">Groove Border</div>
+    <div class="box ridge">Ridge Border</div>
+    <div class="box inset">Inset Border</div>
+    <div class="box outset">Outset Border</div>
+    <div class="box none">No Border</div>
+    
+    </body>
+    </html>`,
+                   des2:``,
 
                 optionExample:{
                    name:`Individual Padding Example:`,
                    arr:[
                     { 
                         name:``,
-                        code:`padding-top: 20px;`,
+                        code:`padding-top: 50px;`,
 
                         fullCode:`<!DOCTYPE html>
                         <html">
@@ -112,7 +235,7 @@ module.exports.css_padding = {
                           .box {
                             display: inline-block;
                             background-color: lightblue;
-                            padding-top: 20px;
+                            padding-top: 50px;
                           }
                         </style>
                         </head>
@@ -124,7 +247,7 @@ module.exports.css_padding = {
 
                     { 
                         name:``,
-                        code:`padding-bottom: 20px;`,
+                        code:`padding-bottom: 50px;`,
 
                         fullCode:`<!DOCTYPE html>
                         <html">
@@ -135,7 +258,7 @@ module.exports.css_padding = {
                         }
                           .box {
                             background-color: lightblue;
-                            padding-bottom: 20px;
+                            padding-bottom: 50px;
                           }
                         </style>
                         </head>
@@ -146,7 +269,7 @@ module.exports.css_padding = {
                     },
                     { 
                         name:``,
-                        code:`padding-left: 20px;`,
+                        code:`padding-left: 50px;`,
 
                         fullCode:`<!DOCTYPE html>
                         <html">
@@ -157,7 +280,7 @@ module.exports.css_padding = {
                         }
                           .box {
                             background-color: lightblue;
-                            padding-left: 20px;
+                            padding-left: 50px;
                           }
                         </style>
                         </head>
@@ -168,7 +291,7 @@ module.exports.css_padding = {
                     },
                     { 
                         name:``,
-                        code:`padding-right: 20px;`,
+                        code:`padding-right: 50px;`,
 
                         fullCode:`<!DOCTYPE html>
                         <html">
@@ -179,7 +302,7 @@ module.exports.css_padding = {
                         }
                           .box {
                             background-color: lightblue;
-                            padding-right: 20px;
+                            padding-right: 50px;
                           }
                         </style>
                         </head>
@@ -226,7 +349,7 @@ module.exports.css_padding = {
                    arr:[
                     { 
                         name:``,
-                        code:`padding-inline: 20px;`,
+                        code:`padding-inline: 50px;`,
 
                         fullCode:`<!DOCTYPE html>
                         <html">
@@ -238,7 +361,7 @@ module.exports.css_padding = {
                           .box {
                             display: inline-block;
                             background-color: lightblue;
-                            padding-inline: 20px;
+                            padding-inline: 50px;
                             
                           }
                         </style>
@@ -251,7 +374,7 @@ module.exports.css_padding = {
 
                     { 
                         name:``,
-                        code:`padding-block: 20px;`,
+                        code:`padding-block: 50px;`,
 
                         fullCode:`<!DOCTYPE html>
                         <html">
@@ -263,7 +386,7 @@ module.exports.css_padding = {
                           .box {
                             display: inline-block;
                             background-color: lightblue;
-                            padding-block: 20px;
+                            padding-block: 50px;
                           }
                         </style>
                         </head>
