@@ -1,6 +1,7 @@
 module.exports.css_borders = {
     name:`CSS Borders`,
 
+    keyword:['css border', 'border in hindi' , 'css border hindi' , 'border'],
     title_img:``,
 
     // des:{

@@ -1,5 +1,7 @@
 module.exports.css_boxmodel = {
     name:`CSS Box Model`,
+    
+    keyword:['css box model', 'box model' , 'css box model in hindi' , 'css model box'],
 
     title_img:``,
 

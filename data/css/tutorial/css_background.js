@@ -1,6 +1,8 @@
 module.exports.css_background = {
     name:`CSS Background`,
 
+    keyword:['css background', 'background hindi' , 'css css background hindi' , 'background'],
+
     title_img:``,
 
     // des:{
